@@ -5,3 +5,5 @@
 - [JavaScript Básico - Brazilian Dev](https://www.youtube.com/playlist?list=PL-R1FQNkywO55236fniVp6LKGAVZXcmnr)
 
 - [JavaScript - Rodrigo Branas](https://www.youtube.com/playlist?list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc)
+
+- [JavaScript e ECMAScript para Iniciantes - Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
