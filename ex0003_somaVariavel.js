@@ -4,6 +4,7 @@
  */
 
 // declarando as 3 variáveis
+// let é para variável local (funciona no escopo)
 let a = 2, b = 3, c = 5;
 
 // somando e retornando a soma no terminal
