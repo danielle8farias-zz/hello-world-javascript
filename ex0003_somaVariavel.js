@@ -3,6 +3,8 @@
  * $ sudo apt install nodejs
  */
 
- let a = 2, b = 3, c = 5;
+// declarando as 3 variáveis
+let a = 2, b = 3, c = 5;
 
- console.log(a + b + c)
+// somando e retornando a soma no terminal
+console.log(a + b + c)
