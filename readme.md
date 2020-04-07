@@ -11,3 +11,5 @@
 - [Curso de Javascript - CFBCursos](https://www.youtube.com/playlist?list=PLx4x_zx8csUj3IbPQ4_X5jis_SkCol3eC)
 
 - [Curso JavaScript Ninja](https://www.udemy.com/course/curso-javascript-ninja/)
+
+- [Introdução à linguagem JavaScript](https://www.udemy.com/course/introducao-a-linguagem-javascript/)
