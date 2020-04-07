@@ -1,3 +1,5 @@
+"use strict"; /** indica que o navegador deve usar o motor novo do JS */
+
 // Declarar uma variável chamada `myvar`, sem valor.
 let myvar;
 

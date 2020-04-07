@@ -1,3 +1,5 @@
+"use strict"; /** indica que o navegador deve usar o motor novo do JS */
+
 document.write('Escrevendo no corpo do documento');
 // quebra de linha tag br
 document.write('<br>');
