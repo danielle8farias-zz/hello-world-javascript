@@ -15,4 +15,4 @@ num2 = Number(prompt('Digite o 2º número:'))
 soma = num1 + num2;
 
 alert('Realizando a soma...')
-document.write(num1 + ' + ' + num2 + ' = ' + soma)
+document.write(`${num1} + ${num2} = ${soma}`)
