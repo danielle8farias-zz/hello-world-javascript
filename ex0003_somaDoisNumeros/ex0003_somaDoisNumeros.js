@@ -1,18 +1,11 @@
-document.write('<h1>')
-document.write('Soma dois números')
-document.write('</h1>')
+function somar(){
+    var tn1 = document.getElementById('texto1')
+    var tn2 = document.querySelector('input#texto2')
+    var resposta = document.getElementById('resposta')
 
-document.write('<p>')
-document.write('Resultado')
-document.write('</p>')
+    var num1 = Number(tn1.value)
+    var num2 = Number(tn2.value)
+    var soma = num1 + num2
 
-let num1, num2, soma;
-
-// fazendo a conversão, pois prompt recebe string
-num1 = Number.parseFloat(prompt('Digite o 1º número:'))
-// pode-se utilizar somente o Number
-num2 = Number(prompt('Digite o 2º número:'))
-soma = num1 + num2;
-
-alert('Realizando a soma...')
-document.write(`${num1} + ${num2} = ${soma}`)
+    resposta.innerHTML = `<strong> ${soma} </strong>`
+}
