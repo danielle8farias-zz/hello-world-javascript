@@ -1,0 +1,8 @@
+div#area {
+    background: #236923;
+    color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font: normal 20pt/200px Arial;
+}
