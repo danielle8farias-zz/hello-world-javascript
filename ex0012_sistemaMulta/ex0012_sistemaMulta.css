@@ -1,0 +1,13 @@
+body {
+    background-color: #ff9380;
+    color: #292727;
+    font: normal 20px Arial;
+}
+
+input {
+    font: normal 18px Arial;
+    width: 100px;
+}
+ div#resposta {
+     margin-top: 20px;
+ }
