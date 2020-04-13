@@ -1,0 +1,14 @@
+body {
+    background-color: #555575;
+    color: white;
+    font: normal 20px Arial;
+}
+
+input {
+    font: normal 18px Arial;
+    width: 100px;
+}
+
+div#media {
+    margin-top: 20px;
+}
