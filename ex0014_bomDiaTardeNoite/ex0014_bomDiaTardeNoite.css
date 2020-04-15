@@ -1,0 +1,13 @@
+body {
+    background-color: #7d6297;
+}
+
+h1 {
+    font: bold 20pt Arial;
+}
+
+div#resposta {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #0e1411;
+}
