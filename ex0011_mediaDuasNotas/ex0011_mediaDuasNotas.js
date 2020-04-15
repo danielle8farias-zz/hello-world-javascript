@@ -10,12 +10,10 @@ function media(){
     if(media < 5){
         resposta.innerHTML = `Média = ${media} Estudante reprovado!`
     }
-    else {
-        if(media >= 5 && media <= 7){
+    else if(media >= 5 && media <= 7) {
             resposta.innerHTML = `Média = ${media} Estudante em recuperação!`
-        }
-        else {
-            resposta.innerHTML = `Média = ${media} Estudante Aprovado!`
-        }
+    }
+    else {
+        resposta.innerHTML = `Média = ${media} Estudante Aprovado!`
     }
 }
