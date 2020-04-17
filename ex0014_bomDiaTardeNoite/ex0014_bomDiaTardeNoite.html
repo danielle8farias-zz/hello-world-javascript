@@ -7,17 +7,16 @@
     <script src="ex0014_bomDiaTardeNoite.js"></script>
     <title>Saudações!</title>
 </head>
-<body>
+<body onload="pegaHora()">
     <header>
         <h1>Que horas são?</h1>
     </header>
     <section>
-
+        <div id="msg"></div>
+        <div id="foto">
+            <img id="imagem" src="manha.png" alt="sol nascendo">
+        </div>
     </section>
-    <div id="botao">
-        <input type="button" value="clique aqui" onclick="pegaHora()">
-    </div>
-    <div id="resposta"></div>
     <footer>
         <p>&copy; danielle8farias</p>
     </footer>

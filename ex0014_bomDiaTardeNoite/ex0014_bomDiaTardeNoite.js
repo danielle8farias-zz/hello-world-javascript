@@ -1,17 +1,24 @@
 function pegaHora() {
+    let mensagem = document.getElementById('msg')
+    let img = document.getElementById('imagem')
     let horaAtual = new Date()
     let hora = horaAtual.getHours()
-    let resultado = document.getElementById('resposta')
 
-    resultado.innerHTML = `<p>São ${hora} hora(s).</p>`
+    mensagem.innerHTML = `<p>São ${hora} hora(s).</p>`
 
     if(hora < 12) {
-        resultado.innerHTML += `<p>Bom dia!</p>`
+        mensagem.innerHTML += `<p>Bom dia!</p>`
+        img.src = 'manha.png'
+        document.body.style.background = '#fc8b25'
     }
     else if (hora <= 18) {
-        resultado.innerHTML += `<p>Boa tarde!</p>`
+        mensagem.innerHTML += `<p>Boa tarde!</p>`
+        img.src = 'tarde.png'
+        document.body.style.background = '#b0e3d9'
     }
     else {
-        resultado.innerHTML += `<p>Boa noite!</p>`
+        mensagem.innerHTML += `<p>Boa noite!</p>`
+        img.src = 'noite.png'
+        document.body.style.background = '#003744'
     }
 }

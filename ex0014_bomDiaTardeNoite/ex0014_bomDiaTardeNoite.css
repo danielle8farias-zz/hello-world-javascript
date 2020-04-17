@@ -18,9 +18,8 @@ section {
     box-shadow: 3px 3px 10px #0000009d;
 }
 
-#botao {
+div {
     text-align: center;
-    margin: 10px;
 }
 
 footer {
