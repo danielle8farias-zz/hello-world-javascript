@@ -1,5 +1,4 @@
-/* comentário em JS */
-
+/** escrevendo no HMTL com o javascript */
 // abre tag h1
 document.write('<h1>')
 // escreve na tag h1
@@ -12,3 +11,5 @@ document.write('<p>')
 document.write('Esse mundo é muito cruel')
 // fecha a tag p
 document.write('</p>')
+
+/** é um jeito burrinho de se fazer */

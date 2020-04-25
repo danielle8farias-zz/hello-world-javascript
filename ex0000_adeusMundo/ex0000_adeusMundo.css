@@ -1,7 +1,9 @@
-/* comentário CSS */
-
+/* corpo do site */
 body {
+    /* cor de fundo*/
     background-color: #a7a7f7;
+    /* cor da fonte*/
     color: white;
+    /* tipo, tamanho e estilo*/
     font: normal 20px Arial;
 }
