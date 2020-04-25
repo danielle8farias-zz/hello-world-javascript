@@ -1,5 +1,5 @@
-/** criando variável */
-/** recebendo valor digitado */
+//criando variável
+//pegando elemento pelo id do html
 let nome = document.getElementById('nome')
 
 //atribuindo variável para a resposta

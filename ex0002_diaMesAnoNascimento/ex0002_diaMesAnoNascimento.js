@@ -1,5 +1,5 @@
 //criando variável
-//recebendo valor digitado
+//pegando elemento pelo id do html
 let dia = document.getElementById('txt-dia')
 let mes = document.getElementById('txt-mes')
 let ano = document.getElementById('txt-ano')

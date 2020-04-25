@@ -1,12 +1,18 @@
-let titulo, anterior, sucessor;
+//criando variável
+//recebendo valor digitado
+let num = document.getElementById('num')
 
-titulo = 'número anterior e sucessor'
+//atribuindo variável para a resposta
+let res = document.getElementById('res')
 
-num = Number(prompt('Digite um número inteiro:'))
+function enviar() {
+    //convertendo valor para número
+    //subtraindo 1 para calcular o valor anterior
+    let ant = Number(num.value) - 1
+    //somando 1 para calcular o valor posterior
+    let suc = Number(num.value) + 1
 
-anterior = num - 1
-
-sucessor = num + 1
-
-document.write(`<h1>${titulo.toUpperCase()}</h1>`)
-document.write(`<p>O número anterior é ${anterior} e o sucessor ${sucessor}</p>`)
+    //escrevendo no html as respostas
+    res.innerHTML = `<p>Antecessor: ${ant}</p>`
+    res.innerHTML += `<p>Sucessor: ${suc}</p>`
+}

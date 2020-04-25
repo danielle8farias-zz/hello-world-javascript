@@ -1,5 +1,5 @@
 //criando variável
-//recebendo valor digitado
+//pegando elemento pelo id do html
 let num1 = document.getElementById('texto1')
 let num2 = document.querySelector('input#texto2')
 
