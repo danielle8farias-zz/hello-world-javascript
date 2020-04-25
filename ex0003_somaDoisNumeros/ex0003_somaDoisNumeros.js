@@ -1,11 +1,16 @@
+//criando variável
+//recebendo valor digitado
+let num1 = document.getElementById('texto1')
+let num2 = document.querySelector('input#texto2')
+
+//atribuindo variável para a resposta
+let resposta = document.getElementById('resposta')
+
+//função é chamada ao clicar no botão
 function somar(){
-    var tn1 = document.getElementById('texto1')
-    var tn2 = document.querySelector('input#texto2')
-    var resposta = document.getElementById('resposta')
-
-    var num1 = Number(tn1.value)
-    var num2 = Number(tn2.value)
-    var soma = num1 + num2
-
-    resposta.innerHTML = `<strong> ${soma} </strong>`
+    //criando variável soma
+    //convertendo os valores em números e somando
+    let soma = Number(num1.value) + Number(num2.value)
+    //escrevendo no html a resposta da soma
+    resposta.innerHTML = `<strong><p>Soma: ${soma} </p></strong>`
 }

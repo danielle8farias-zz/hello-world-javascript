@@ -1,5 +1,43 @@
+/* corpo do site */
 body {
-    background-color: #fad0d0;
-    color: #ff4500;
+    /* cor de fundo*/
+    background-color: #0f080d;
+    /* cor da fonte*/
+    color: #241324;
+    /* tipo, tamanho e estilo*/
     font: normal 20px Arial;
+}
+/* seção */
+section {
+    /* cor de fundo */
+    background: white;
+    /* bordas arredondadas */
+    border-radius: 10px;
+    /* espaçamento */
+    padding: 15px;
+    /* comprimento */
+    width: 500px;
+    /* centralizando */
+    margin: auto;
+    /* tamanho e cor da sombra da seção */
+    box-shadow: 3px 3px 10px #0000009d;
+}
+/* rodapé */
+footer {
+    /* cor da fonte*/
+    color: white;
+    /* alinhamento do texto */
+    text-align: center;
+    /* tipo da fonte */
+    font-style: italic;
+}
+/* todas as tags div que houver */
+div {
+    /* alinhamento do texto */
+    text-align: center;
+}
+/* classe das caixas de números */
+.caixa-num {
+    /* comprimento */
+    width: 50px;
 }

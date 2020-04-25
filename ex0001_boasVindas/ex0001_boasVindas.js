@@ -1,11 +1,12 @@
 /** criando variável */
 /** recebendo valor digitado */
-let nome = prompt('Qual o seu nome?')
+let nome = document.getElementById('nome')
 
-// abre tag h1
-document.write('<h1>')
-// escreve na tag h1
-// + concatenação de strings
-document.write('Bem-vinda, ' + nome + '!')
-// fecha tag h1
-document.write('</h1>')
+//atribuindo variável para a resposta
+let res = document.getElementById('res')
+
+//função é chamada ao clicar no botão
+function enviar() {
+    //escreve no html a string abaixo e o valor da variável nome
+    res.innerHTML = `Bem-vinda, ${nome.value}!`
+}

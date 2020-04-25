@@ -1,17 +1,14 @@
-let dia = prompt('Digite o dia do seu nascimento:')
-let mes = prompt('Digite o número do mês do seu nascimento:')
-let ano = prompt('Digite o ano do seu nascimento')
+//criando variável
+//recebendo valor digitado
+let dia = document.getElementById('txt-dia')
+let mes = document.getElementById('txt-mes')
+let ano = document.getElementById('txt-ano')
 
-// abre tag h1
-document.write('<h1>')
-// escreve na tag h1
-document.write('Você nasceu em:')
-// fecha tag h1
-document.write('</h1>')
+//atribuindo variável para a resposta
+let res = document.getElementById('res')
 
-// abre tag 
-document.write('<p>')
-// escreve dentro da tag p
-document.write(dia + ' de ' + mes + ' de ' + ano)
-// fecha tag p
-document.write('</p>')
+//função é chamada ao clicar no botão
+function enviar() {
+    //escreve no html a string abaixo e os valores passados pelas variáveis
+    res.innerHTML = `<p>Você nasceu em: ${dia.value} de ${mes.value} de ${ano.value}</p>`
+}
