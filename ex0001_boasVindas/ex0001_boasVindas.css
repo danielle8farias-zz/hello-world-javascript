@@ -1,5 +1,9 @@
+/* corpo do site */
 body {
+    /* cor de fundo*/
     background-color: #617a61;
+    /* cor da fonte*/
     color: #241324;
+    /* tipo, tamanho e estilo*/
     font: normal 20px Arial;
 }
