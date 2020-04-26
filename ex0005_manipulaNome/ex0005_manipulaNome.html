@@ -1,12 +1,44 @@
+<!--identifica para o navegador HTML5-->
 <!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
 <html lang="pt-br">
+    <!--aqui vão meta dados-->
     <head>
+        <!--unicode para leitura correta de caracteres-->
         <meta charset="UTF-8">
+        <!--portando para mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
         <link rel="stylesheet" href="ex0005_manipulaNome.css">
+        <!--título que aparece na parte superior da janela-->
         <title>Manipulando strings</title>
     </head>
+    <!--corpo do site-->
     <body>
-        <script src="ex0005_manipulaNome.js"></script>        
+        <!--cabeçalho-->
+        <header>
+            <!--título 1-->
+            <h1>Manipulando Strings</h1>
+        </header>
+        <!--seção-->
+        <section>
+            <!--parágrafo-->
+            <p>
+                Qual o seu nome?
+                <!--caixa que recebe texto-->
+                <input type="text" id="nome">
+                <!--botão que chama a função ao clicar-->
+                <input type="button" value="enviar" onclick="enviar()">
+            </p>
+        <!--resposta aparecerá aqui-->
+        <div id="res"></div>
+        </section>
+        <!--rodapé do site-->
+        <footer>
+            <p>&copy; danielle8farias</p>
+        </footer>
+        <!--link para o script que será executado nessa página-->
+        <script src="ex0005_manipulaNome.js"></script>
     </body>
 </html>
