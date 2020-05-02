@@ -1,12 +1,18 @@
 /* corpo do site */
 body {
     /* cor de fundo*/
-    background-color: #0f080d;
+    background-color: #b8a1b1;
     /* cor da fonte*/
-    color: #241324;
+    color: #0f070f;
     /* tipo, tamanho e estilo*/
     font: normal 20px Arial;
 }
+
+/* cabeçalho */
+header {
+    text-align: center;
+}
+
 /* seção */
 section {
     /* cor de fundo */
@@ -22,6 +28,7 @@ section {
     /* tamanho e cor da sombra da seção */
     box-shadow: 3px 3px 10px #0000009d;
 }
+
 /* rodapé */
 footer {
     /* cor da fonte*/
@@ -31,11 +38,13 @@ footer {
     /* tipo da fonte */
     font-style: italic;
 }
+
 /* todas as tags div que houver */
 div {
     /* alinhamento do texto */
     text-align: center;
 }
+
 /* classe das caixas de números */
 .caixa-num {
     /* comprimento */
