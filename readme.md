@@ -4,3 +4,4 @@
 
 - [ex0002:](exercicio_js/ex0002_diaMesAnoNascimento/ex0002_diaMesAnoNascimento.html) Usuário digita, em números, a data completa de nascimento e programa retorna essa informação formatada.
 
+- ex0003: Usuário digita dois números e programa retorna a soma entre eles.
