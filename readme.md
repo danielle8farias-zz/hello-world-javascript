@@ -1,7 +1,6 @@
 # Exercícios básicos de JavaScript
 
-- [JavaScript e ECMAScript para Iniciantes - Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
-
+ex0001: Lê o nome de um usuário e retorna o nome com uma mensagem de boas-vindas.
 
 
 
