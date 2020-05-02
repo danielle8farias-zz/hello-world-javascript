@@ -1,0 +1,52 @@
+<!--identifica para o navegador HTML5-->
+<!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
+    <head>
+        <!--unicode para leitura correta de caracteres-->
+        <meta charset="UTF-8">
+        <!--portando para mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
+        <link rel="stylesheet" href="ex0003_somaDoisNumeros.css">
+        <!--título que aparece na parte superior da janela-->
+        <title>Soma</title>
+    </head>
+    <!--corpo do site-->
+    <body>
+        <!--cabeçalho-->
+        <header>
+            <!--título 1-->
+            <h1>Soma dois números</h1>
+            <!--parágrafo-->
+            <p>Usuário digita dois números e programa retorna a soma entre eles.</p>
+        </header>
+
+        <!--seção-->
+        <section>
+            <!--container-->
+            <div>
+                <!--título 1-->
+                <h1>Somando números</h1>
+                <p>
+                    <!-- caixa que recebe número 1-->
+                    <input type="number" name="texto1" id="texto1"> + 
+                    <!-- caixa que recebe número 2-->
+                    <input type="number" name="texto2" id="texto2">
+                    <!--botão que envia os dados digitados-->
+                    <!-- chamando função somar()-->
+                    <input type="button" value="somar" onclick="somar()">
+                </p>
+            </div>
+            <div id="resposta"></div>
+        </section>
+        <!--rodapé do site-->
+        <footer>
+            <p>&copy; danielle8farias</p>
+        </footer>
+        <!--link para o script que será executado nessa página-->
+        <script src="ex0003_somaDoisNumeros.js"></script>
+    </body>
+</html>
