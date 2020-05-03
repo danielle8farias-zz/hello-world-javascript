@@ -10,4 +10,5 @@
 
 - [ex0005:](exercicio_js/ex0005_manipulaNome/ex0005_manipulaNome.html) Usuário informa um nome e programa retorna esse nome em caixa alta, minúsculo e quantas letras possui.
 
-- [ex0006:] Usuário informa um número e programa retorna o dobro, triplo e raiz quadrada desse número.
+- [ex0006:](exercicio_js/ex0006_dobroTriploRaizQuadrada/ex0006_dobroTriploRaizQuadrada.html) Usuário informa um número e programa retorna o dobro, triplo e raiz quadrada desse número.
+

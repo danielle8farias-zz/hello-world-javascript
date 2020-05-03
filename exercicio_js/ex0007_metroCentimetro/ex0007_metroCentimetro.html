@@ -1,0 +1,44 @@
+<!--identifica para o navegador HTML5-->
+<!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
+    <head>
+        <!--unicode para leitura correta de caracteres-->
+        <meta charset="UTF-8">
+        <!--portando para mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
+        <link rel="stylesheet" href="ex0007_metroCentimetro.css">
+        <!--título que aparece na parte superior da janela-->
+        <title>Transforma metros</title>
+    </head>
+    <!--corpo do site-->
+    <body>
+        <!--cabeçalho-->
+        <header>
+            <!--título 1-->
+            <h1>De metros para cm e mm</h1>
+            <!--parágrafo-->
+            <p>Usuário informa um valor dado em metros em centímetros e milímetros</p>
+        </header>
+        <!--seção-->
+        <section>
+            <div>
+                <p>
+                    Valor (em metros):
+                    <input type="number" name="num" id="num">
+                    <input type="button" value="enviar" onclick="calcular()">
+                </p>
+            </div>
+            <div id="res"></div>
+        </section>
+        <!--rodapé do site-->
+        <footer>
+            <p>&copy; danielle8farias</p>
+        </footer>
+        <!--link para o script que será executado nessa página-->
+        <script src="ex0007_metroCentimetro.js"></script>
+    </body>
+</html>

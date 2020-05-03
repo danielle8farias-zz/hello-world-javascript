@@ -14,6 +14,7 @@ function calcular() {
     //sqrt função que retorna raiz quadrada
     let raizQuadrada = Math.sqrt(Number(num.value))
 
+    //escrevendo no documento html
     res.innerHTML = `<p>Dobro: ${dobro}</p>`
     //concatenando strings
     res.innerHTML += `<p>Triplo: ${triplo}</p>`
