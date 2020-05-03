@@ -6,4 +6,6 @@
 
 - [ex0003:](exercicio_js/ex0003_somaDoisNumeros/ex0003_somaDoisNumeros.html) Usuário digita dois números e programa retorna a soma entre eles.
 
-- [ex0004:]() Usuário informa um número e programa retorna o anterior e sucessor desse.
+- [ex0004:](exercicio_js/ex0004_numeroAntesEDepois/ex0004_numeroAntesEDepois.html) Usuário informa um número e programa retorna o anterior e sucessor desse.
+
+- [ex0005:](exercicio_js/ex0005_manipulaNome/ex0005_manipulaNome.html) Usuário informa um nome e programa retorna esse nome em caixa alta, minúsculo e quantas letras possui.
