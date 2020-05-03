@@ -15,5 +15,6 @@ function enviar() {
 
     //escrevendo no html as respostas
     res.innerHTML = `<p>Antecessor: ${ant}</p>`
+    //+= contatenando strings
     res.innerHTML += `<p>Sucessor: ${suc}</p>`
 }

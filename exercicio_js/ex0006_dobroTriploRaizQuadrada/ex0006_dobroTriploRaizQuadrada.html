@@ -1,0 +1,44 @@
+<!--identifica para o navegador HTML5-->
+<!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
+    <head>
+        <!--unicode para leitura correta de caracteres-->
+        <meta charset="UTF-8">
+        <!--portando para mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
+        <link rel="stylesheet" href="ex0006_dobroTriploRaizQuadrada.css">
+        <!--título que aparece na parte superior da janela-->
+        <title>Dobro, triplo e raíz quadrada</title>
+    </head>
+    <!--corpo do site-->
+    <body>
+        <!--cabeçalho-->
+        <header>
+            <!--título 1-->
+            <h1>Dobro, triplo e raíz quadrada</h1>
+            <!--parágrafo-->
+            <p>Usuário informa um número e programa retorna o dobro, triplo e raiz quadrada desse número.</p>
+        </header>
+        <!--seção-->
+        <section>
+            <div>
+                <p>
+                    Digite um número:
+                    <input type="number" name="num" id="num">
+                    <input type="button" value="enviar" onclick="calcular()">
+                </p>
+            </div>
+            <div id="res"></div>
+        </section>
+        <!--rodapé do site-->
+        <footer>
+            <p>&copy; danielle8farias</p>
+        </footer>
+        <!--link para o script que será executado nessa página-->
+        <script src="ex0006_dobroTriploRaizQuadrada.js"></script>
+    </body>
+</html>

@@ -1,12 +1,18 @@
 /* corpo do site */
 body {
     /* cor de fundo*/
-    background-color: #2c2228;
+    background-color: #fceba1;
     /* cor da fonte*/
     color: #241324;
     /* tipo, tamanho e estilo*/
     font: normal 20px Arial;
 }
+
+/* cabeçalho */
+header {
+    text-align: center;
+}
+
 /* seção */
 section {
     /* cor de fundo */
@@ -22,11 +28,13 @@ section {
     /* tamanho e cor da sombra da seção */
     box-shadow: 3px 3px 10px #0000009d;
 }
+
 /* todas as tags div que houver */
 div, h1 {
     /* alinhamento do texto */
     text-align: center;
 }
+
 /* rodapé */
 footer {
     /* cor da fonte*/
