@@ -1,5 +1,5 @@
 var areaClique = document.getElementById('area')
-// ver erro!
+
 areaClique.addEventListener('click', clicar)
 areaClique.addEventListener('mouseenter', entrar)
 areaClique.addEventListener('mouseout', sair)

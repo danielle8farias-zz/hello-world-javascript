@@ -16,4 +16,6 @@
 
 - [ex0008:](exercicio_js/ex0008_manipulaDom/ex0008_manipulaDom.html) Manipulando o DOM.
 
-- 
+- [ex0009:](exercicio_js/ex0009_funcao/ex0009_funcao.html) Interagindo com botão.
+
+- [ex0010:](exercicio_js/ex0010_eventListener/ex0010_eventListener.html) Interagindo com botão usando eventListener.
