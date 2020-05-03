@@ -12,3 +12,5 @@
 
 - [ex0006:](exercicio_js/ex0006_dobroTriploRaizQuadrada/ex0006_dobroTriploRaizQuadrada.html) Usuário informa um número e programa retorna o dobro, triplo e raiz quadrada desse número.
 
+- [ex0007:](exercicio_js/ex0007_metroCentimetro/ex0007_metroCentimetro.html) Usuário informa um valor em metros e programa retorna este em centímetros e milímetros.
+
