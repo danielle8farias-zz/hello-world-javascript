@@ -19,3 +19,6 @@
 - [ex0009:](exercicio_js/ex0009_funcao/ex0009_funcao.html) Interagindo com botão.
 
 - [ex0010:](exercicio_js/ex0010_eventListener/ex0010_eventListener.html) Interagindo com botão usando eventListener.
+
+- [ex0011:](exercicio_js/ex0011_mediaDuasNotas/ex0011_mediaDuasNotas.html) Usuário informa dois valores para as notas e programa calcula e retorna a média. Se a média for menor do que 5, retorna que o aluno foi reprovado. Se a média for entre 5 e 7, retorna que está de recuperação. Se maior do que 7, está aprovado.
+
