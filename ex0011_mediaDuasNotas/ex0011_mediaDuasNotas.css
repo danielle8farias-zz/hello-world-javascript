@@ -1,14 +1,50 @@
+/* corpo do site */
 body {
-    background-color: #555575;
-    color: white;
+    /* cor de fundo*/
+    background-color: #d3a0fa;
+    /* cor da fonte*/
+    color: #241324;
+    /* tipo, tamanho e estilo*/
     font: normal 20px Arial;
 }
 
-input {
-    font: normal 18px Arial;
-    width: 100px;
+/* cabeçalho */
+header {
+    text-align: center;
 }
 
-div#media {
-    margin-top: 20px;
+/* seção */
+section {
+    /* cor de fundo */
+    background: white;
+    /* bordas arredondadas */
+    border-radius: 10px;
+    /* espaçamento */
+    padding: 15px;
+    /* comprimento */
+    width: 500px;
+    /* centralizando */
+    margin: auto;
+    /* tamanho e cor da sombra da seção */
+    box-shadow: 3px 3px 10px #0000009d;
+}
+
+/* todas as tags div que houver */
+div {
+    /* alinhamento do texto */
+    text-align: center;
+}
+
+/* rodapé */
+footer {
+    /* cor da fonte*/
+    color: white;
+    /* alinhamento do texto */
+    text-align: center;
+    /* tipo da fonte */
+    font-style: italic;
+}
+
+#res {
+    margin-top: 10px;
 }
