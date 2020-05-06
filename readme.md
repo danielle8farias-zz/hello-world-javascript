@@ -22,3 +22,4 @@
 
 - [ex0011:](exercicio_js/ex0011_mediaDuasNotas/ex0011_mediaDuasNotas.html) Usuário informa dois valores para as notas e programa calcula e retorna a média. Se a média for menor do que 5, retorna que o aluno foi reprovado. Se a média for entre 5 e 7, retorna que está de recuperação. Se maior do que 7, está aprovado.
 
+- [ex0012:](exercicio_js/ex0012_sistemaMulta/ex0012_sistemaMulta.html) Usuário digita um valor de velocidade de um carro. Se a velocidade for maior do que 60 Km/h o programa informa que ele foi multado.
