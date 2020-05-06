@@ -1,20 +1,41 @@
+<!--identifica para o navegador HTML5-->
 <!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
 <html lang="pt-br">
+    <!--aqui vão meta dados-->
     <head>
+        <!--unicode para leitura correta de caracteres-->
         <meta charset="UTF-8">
+        <!--portando para mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
         <link rel="stylesheet" href="ex0012_sistemaMulta.css">
-        <title>Multas DETRAN</title>
+        <!--título que aparece na parte superior da janela-->
+        <title>Multras DETRAN</title>
     </head>
+    <!--corpo do site-->
     <body>
-        <h1>Sistemas de multa</h1>
-        <div>
-            Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
-        </div>
-        <div>
-            <input type="button" value="Verificar" onclick="calcular()">
-        </div>
-        <div id="resposta"></div>
+        <!--cabeçalho-->
+        <header>
+            <!--título 1-->
+            <h1>Sistemas de multas</h1>
+            <!--parágrafo-->
+            <p></p>
+        </header>
+        <!--seção-->
+        <section>
+            <div>
+                <p>Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h</p>
+                <input type="button" value="Verificar" onclick="calcular()">
+            </div>
+            <div id="res"></div>    
+        </section>
+        <!--rodapé do site-->
+        <footer>
+            <p>&copy; danielle8farias</p>
+        </footer>
+        <!--link para o script que será executado nessa página-->
         <script src="ex0012_sistemaMulta.js"></script>
     </body>
 </html>

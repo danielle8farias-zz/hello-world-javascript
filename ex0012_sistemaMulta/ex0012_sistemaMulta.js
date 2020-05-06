@@ -1,14 +1,20 @@
+//função é chamada ao clicar no botão
 function calcular() {
-    var txt_velocidade = document.getElementById('txtvel')
-    var resultado = document.querySelector('div#resposta')
+    //criando variável
+    //pegando elemento pelo id do html
+    let velocidade = document.getElementById('txtvel')
+    //pegando elemento através do seletor
+    let res = document.querySelector('div#res')
+  
+    //value pega o valor da variável
+    //escrevendo no doc html
+    res.innerHTML = `<p>Sua velocidade é <strong>${velocidade.value} Km/h</strong></p>`
 
-    var vel = Number(txt_velocidade.value)
-    
-    resultado.innerHTML = `<p>Sua velocidade é <strong>${vel} Km/h</strong></p>`
-
-    if(vel > 60) {
-        resultado.innerHTML += `<p>Você está <strong>multado</strong> por excesso de velocidade!</p>`
+    //verificando se a velocidade é maior do que 60
+    if(velocidade.value > 60) {
+        //concatenando strings
+        res.innerHTML += `<p>Você está <strong>multado</strong> por excesso de velocidade!</p>`
     }
 
-    resultado.innerHTML += `<p> Dirija sempre com segurança! </p>`
+    res.innerHTML += `<p> Dirija sempre com segurança! </p>`
 }
