@@ -25,3 +25,5 @@
 - [ex0012:](exercicio_js/ex0012_sistemaMulta/ex0012_sistemaMulta.html) Usuário digita um valor de velocidade de um carro. Se a velocidade for maior do que 60 Km/h o programa informa que ele foi multado.
 
 - [ex0013:](exercicio_js/ex0013_conversorDolar/ex0013_conversorDolar.html) Usuário insere valor em Reais e programa retorna a conversão em dólar.
+
+- ex0014: Ao carregar a página, programa captura a hora atual do sistema e retorna ao usuário uma mensagem de saudação de acordo com a hora e mostra na tela uma imagem que representa essa hora do dia.
