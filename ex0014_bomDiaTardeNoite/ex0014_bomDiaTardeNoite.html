@@ -1,24 +1,41 @@
+<!--identifica para o navegador HTML5-->
 <!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
 <html lang="pt-br">
+    <!--aqui vão meta dados-->
     <head>
+        <!--unicode para leitura correta de caracteres-->
         <meta charset="UTF-8">
+        <!--portando para mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
         <link rel="stylesheet" href="ex0014_bomDiaTardeNoite.css">
-        <title>Saudações!</title>
+        <!--título que aparece na parte superior da janela-->
+        <title></title>
     </head>
+    <!--corpo do site-->
+    <!--onload event; chama a função quando a página é carregada-->
     <body onload="pegaHora()">
+        <!--cabeçalho-->
         <header>
+            <!--título 1-->
             <h1>Que horas são?</h1>
+            <!--parágrafo-->
+            <p></p>
         </header>
+        <!--seção-->
         <section>
             <div id="msg"></div>
             <div id="foto">
                 <img id="imagem" src="manha.png" alt="sol nascendo">
             </div>
         </section>
+        <!--rodapé do site-->
         <footer>
             <p>&copy; danielle8farias</p>
         </footer>
+        <!--link para o script que será executado nessa página-->
         <script src="ex0014_bomDiaTardeNoite.js"></script>
     </body>
 </html>
