@@ -26,4 +26,4 @@
 
 - [ex0013:](exercicio_js/ex0013_conversorDolar/ex0013_conversorDolar.html) Usuário insere valor em Reais e programa retorna a conversão em dólar.
 
-- ex0014: Ao carregar a página, programa captura a hora atual do sistema e retorna ao usuário uma mensagem de saudação de acordo com a hora e mostra na tela uma imagem que representa essa hora do dia.
+- [ex0014:](exercicio_js/ex0014_bomDiaTardeNoite/ex0014_bomDiaTardeNoite.html) Ao carregar a página, programa captura a hora atual do sistema e retorna ao usuário uma mensagem de saudação de acordo com a hora e mostra na tela uma imagem que representa essa hora do dia.
