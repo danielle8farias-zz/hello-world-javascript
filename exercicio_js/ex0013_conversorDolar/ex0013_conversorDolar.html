@@ -1,0 +1,42 @@
+<!--identifica para o navegador HTML5-->
+<!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
+    <head>
+        <!--unicode para leitura correta de caracteres-->
+        <meta charset="UTF-8">
+        <!--portando para mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
+        <link rel="stylesheet" href="ex0013_conversorDolar.css">
+        <!--título que aparece na parte superior da janela-->
+        <title>Conversor Dólar</title>
+    </head>
+    <!--corpo do site-->
+    <body>
+        <!--cabeçalho-->
+        <header>
+            <!--título 1-->
+            <h1>Conversão de Reais em dólar(es)</h1>
+            <!--parágrafo-->
+            <p>Usuário insere valor em Reais e programa retorna a conversão em dólar.</p>
+        </header>
+        <!--seção-->
+        <section>
+            <div>
+                <p>Insira o valor em Reais que deseja converter:</p>
+                R$<input type="number" name="valor-real" id="valor-real">
+                <input type="button" value="calcular" onclick="calcular()">
+            </div>
+            <div id="res"></div>    
+        </section>
+        <!--rodapé do site-->
+        <footer>
+            <p>&copy; danielle8farias</p>
+        </footer>
+        <!--link para o script que será executado nessa página-->
+        <script src="ex0013_conversorDolar.js"></script>
+    </body>
+</html>
