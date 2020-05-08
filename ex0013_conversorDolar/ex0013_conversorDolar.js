@@ -1,9 +1,16 @@
+//função é chamada ao clicar no botão
 function calcular() {
-    let txt_real = document.getElementById('valor-real')
-    let resultado = document.querySelector('div#resposta')
+    //criando variável
+    //pegando elemento pelo id do html
+    let real = document.getElementById('valor-real')
+    let res = document.querySelector('div#res')
 
-    let valorReal = Number(txt_real.value)
-    let valorDolar = valorReal / 5.25
+    //value pega o valor da variável
+    //Number converte para número
+    //atribuindo resultado da operação a variável dolar
+    let dolar = Number(real.value) / 5.25
 
-    resultado.innerHTML = `U$ ${valorDolar.toFixed(2)}`
+    //toFixed() para fixar o número de casas decimais
+    //escrevendo no doc html
+    res.innerHTML = `<p>U$ ${dolar.toFixed(2)}</p>`
 }
