@@ -1,39 +1,62 @@
+<!--identifica para o navegador HTML5-->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
     <head>
+        <!--unicode para leitura correta de caracteres-->
         <meta charset="UTF-8">
+        <!--portando para mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
         <link rel="stylesheet" href="ex0015_verificaIdade.css">
-        <title>Verificando Idade</title>
+        <!--título que aparece na parte superior da janela-->
+        <title>Verificador de idade</title>
     </head>
+    <!--corpo do site-->
     <body>
+        <!--cabeçalho-->
         <header>
-            <h1>Verificador de idade</h1>
+            <!--título 1-->
+            <h1>Verificando Idade</h1>
+            <!--parágrafo-->
+            <p></p>
         </header>
+        <!--seção-->
         <section>
             <div>
                 <p>
                     Ano de nascimento:
+                    <!--caixa que recebe número-->
                     <input type="number" name="txtano" id="txtano" min="0">
                 </p>
                 <p>
                     Sexo:
+                    <!--'radio' checkbox redondo-->
+                    <!--mesmo 'name' impede que mais de um checkbox seja marcado ao mesmo tempo-->
                     <input type="radio" name="radsex" id="mas" checked>
+                    <!--label para identificar o checkbox-->
+                    <!--'for' deve ser o mesmo da id do checkbox-->
                     <label for="mas">Masculino</label>
                     <input type="radio" name="radsex" id="fem">
                     <label for="fem">Feminino</label>
                 </p>
                 <p>
+                    <!--botão-->
                     <input type="button" value="Verificar" onclick="verificar()">
                 </p>
             </div>
+            <!--divisão para resposta-->
             <div id="res">
                 Preencha os dados acima para ver o resultado!
             </div>
         </section>
+        <!--rodapé do site-->
         <footer>
             <p>&copy; danielle8farias</p>
         </footer>
+        <!--link para o script que será executado nessa página-->
         <script src="ex0015_verificaIdade.js"></script>
     </body>
 </html>

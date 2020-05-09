@@ -3,6 +3,7 @@ function somar(){
     //criando variável
     //pegando elemento pelo id do html
     let num1 = document.getElementById('texto1')
+    //pegando elemento através do seletor
     let num2 = document.querySelector('input#texto2')
 
     //atribuindo variável para a resposta
