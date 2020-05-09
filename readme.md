@@ -32,4 +32,4 @@
 
 - [ex0016:](exercicio_js/ex0016_contador/ex0016_contador.html) Usuário informa para um contador um número inicial, final e o passo. Programa retorna a contagem em ordem crescente ou decrescente, a depender dos valores finais e iniciais.
 
-- ex0017: Usuário informa um número inteiro e programa retorna a tabuada de multiplicação.
+- [ex0017:](exercicio_js/ex0017_tabuada/ex0017_tabuada.html) Usuário informa um número inteiro e programa retorna a tabuada de multiplicação.
