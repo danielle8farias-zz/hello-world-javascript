@@ -11,6 +11,8 @@ function verificar() {
 
     //verificando se o tamanho do ano informado é igual a zero
     //ou se o valor do ano informado é maior do que o ano atual
+    //value pega o valor da variável
+    //length retorna o tamanho    
     if (ano.value.length == 0 || Number(ano.value) > anoAtual) {
         alert('Verifique os dados e tente novamente')
     }

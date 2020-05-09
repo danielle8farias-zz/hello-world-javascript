@@ -1,29 +1,49 @@
+<!--identifica para o navegador HTML5-->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
     <head>
+        <!--unicode para leitura correta de caracteres-->
         <meta charset="UTF-8">
+        <!--portando para mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
         <link rel="stylesheet" href="ex0016_contador.css">
+        <!--título que aparece na parte superior da janela-->
         <title>Contador</title>
     </head>
+    <!--corpo do site-->
     <body>
+        <!--cabeçalho-->
         <header>
+            <!--título 1-->
             <h1>Vamos contar</h1>
+            <!--parágrafo-->
+            <p></p>
         </header>
+        <!--seção-->
         <section>
+            <!--divisão para os dados-->
             <div id="dados">
+                <!--caixa de texto que recebe um número-->
                 <p>Início: <input type="number" name="inicio" id="txti"></p>
                 <p>Fim: <input type="number" name="fim" id="txtf"></p>
                 <p>Passo: <input type="number" name="passo" id="txtp"></p>
+                <!--botão que chama a função-->
                 <p><input type="button" value="Contar" onclick="contar()"></p>
             </div>
+            <!--divisão onde será mostrado a resposta-->
             <div id="res">
                 Preparando a contagem...
             </div>
         </section>
+        <!--rodapé do site-->
         <footer>
             <p>&copy; danielle8farias</p>
         </footer>
+        <!--link para o script que será executado nessa página-->
         <script src="ex0016_contador.js"></script>
     </body>
 </html>
