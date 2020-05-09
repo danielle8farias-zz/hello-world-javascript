@@ -31,3 +31,5 @@
 - [ex0015:](exercicio_js/ex0015_verificaIdade/ex0015_verificaIdade.html) Usuário informa ano de nascimento e marca o gênero num checkbox. O programa retorna a idade e a imagem de uma pessoa de acordo com idade e gênero.
 
 - [ex0016:](exercicio_js/ex0016_contador/ex0016_contador.html) Usuário informa para um contador um número inicial, final e o passo. Programa retorna a contagem em ordem crescente ou decrescente, a depender dos valores finais e iniciais.
+
+- ex0017: Usuário informa um número inteiro e programa retorna a tabuada de multiplicação.
