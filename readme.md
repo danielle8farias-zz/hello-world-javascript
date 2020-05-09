@@ -27,3 +27,5 @@
 - [ex0013:](exercicio_js/ex0013_conversorDolar/ex0013_conversorDolar.html) Usuário insere valor em Reais e programa retorna a conversão em dólar.
 
 - [ex0014:](exercicio_js/ex0014_bomDiaTardeNoite/ex0014_bomDiaTardeNoite.html) Ao carregar a página, programa captura a hora atual do sistema e retorna ao usuário uma mensagem de saudação de acordo com a hora e mostra na tela uma imagem que representa essa hora do dia.
+
+- [ex0015:](exercicio_js/ex0015_verificaIdade/ex0015_verificaIdade.html) Usuário informa ano de nascimento e marca o gênero num checkbox. O programa retorna a idade e a imagem de uma pessoa de acordo com idade e gênero.
