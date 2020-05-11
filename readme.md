@@ -36,3 +36,4 @@
 
 - [ex0018:](exercicio_js/ex0018_hipotenusa/ex0018_hipotenusa.html) Usuário informa dos valores de catetos e programa retorna o valor da hipotenusa.
 
+- [ex0019:](exercicio_js/ex0019_listaAdd/ex0019_listaAdd.html) Usuário informa número(s) e programa guarda os valores em um vetor. Ao final retorna o total de elementos, o maior, o menor, a soma e a média desses números. Deve-se aceitar somente números de 1 a 100.
