@@ -1,33 +1,55 @@
+<!--identifica para o navegador HTML5-->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
     <head>
+        <!--unicode para leitura correta de caracteres-->
         <meta charset="UTF-8">
+        <!--portando para mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
         <link rel="stylesheet" href="ex0019_listaAdd.css">
+        <!--título que aparece na parte superior da janela-->
         <title>Analisa Número</title>
     </head>
+    <!--corpo do site-->
     <body>
+        <!--cabeçalho-->
         <header>
+            <!--título 1-->
             <h1>Analisador de Números</h1>
+            <!--parágrafo-->
+            <p></p>
         </header>
+        <!--seção-->
         <section>
             <div>
                 <p>
-                    Número (entre 1 e 100): 
+                    Número (entre 1 e 100):
+                    <!--caixa de texto que recebe um número-->
                     <input type="number" name="txtn" id="txtn">
+                    <!--botão que chama a função-->
                     <input type="button" value="adicionar" onclick="adicionar()">
                 </p>
             </div>
             <div>
+                <!--select; tag que cria uma lista dropdown-->
+                <!--size define o número de opções visíveis na lista dropdown-->
                 <select name="listaNum" id="listaNum" size="8"></select>
                 <br>
+                <!--botão que chama a função-->
                 <input type="button" value="finalizar" onclick="finalizar()">
             </div>
+            <!--retorno do javascript virá aqui-->
             <div id="res"></div>
         </section>
+        <!--rodapé do site-->
         <footer>
             <p>&copy; danielle8farias</p>
         </footer>
+        <!--link para o script que será executado nessa página-->
         <script src="ex0019_listaAdd.js"></script>
     </body>
 </html>
