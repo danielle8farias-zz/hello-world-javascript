@@ -1,28 +1,48 @@
+<!--identifica para o navegador HTML5-->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
     <head>
+        <!--unicode para leitura correta de caracteres-->
         <meta charset="UTF-8">
+        <!--portando para mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
         <link rel="stylesheet" href="ex0018_hipotenusa.css">
+        <!--título que aparece na parte superior da janela-->
         <title>Hipotenusa</title>
     </head>
+    <!--corpo do site-->
     <body>
+        <!--cabeçalho-->
         <header>
+            <!--título 1-->
             <h1>Cálculo da Hipotenusa</h1>
+            <!--parágrafo-->
+            <p></p>
         </header>
+        <!--seção-->
         <section>
+            <!--divisão para caixas de texto-->
             <div>
+                <!--caixa de texto que recebe o valor-->
                 <p>Digite o primeiro cateto: <input type="number" name="cat1" id="txt-cateto-1"> </p>
                 <p>Digite o segundo cateto: <input type="number" name="cat2" id="txt-cateto-2"> </p>
             </div>
+            <!--botão que chama a função-->
             <div>
                 <input type="button" value="calcular" onclick="calcular()">
             </div>
+            <!--divisão de resposta-->
             <div id="res"></div>
         </section>
+        <!--rodapé do site-->
         <footer>
             <p>&copy; danielle8farias</p>
         </footer>
+        <!--link para o script que será executado nessa página-->
         <script src="ex0018_hipotenusa.js"></script>
     </body>
 </html>

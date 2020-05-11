@@ -22,6 +22,7 @@ function tabuada() {
             //criando tag no doc html
             let item = document.createElement('option')
             //.text escrevendo texto a cada iteração
+            //Number convertendo para tipo número
             item.text = `${Number(num.value)} x ${c} = ${Number(num.value) * c}`
             //anexando o item a cada iteração
             tab.appendChild(item)
