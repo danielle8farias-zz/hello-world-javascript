@@ -269,10 +269,15 @@ figure#areas {
     float: left;
 }
 
+figure#areas img {
+    width: 100%;
+}
+
 figure#mao {
-    width: 300px;
+    width: 350px;
     float: right;
     padding-top: 25px;
+    margin-left: 5px;
 }
 
 figure#mao figcaption {
