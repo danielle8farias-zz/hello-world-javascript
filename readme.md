@@ -39,3 +39,6 @@
 - [ex0019:](exercicio_js/ex0019_listaAdd/ex0019_listaAdd.html) Usuário informa número(s) e programa guarda os valores em um vetor. Ao final retorna o total de elementos, o maior, o menor, a soma e a média desses números. Deve-se aceitar somente números de 1 a 100.
 
 - [ex0020:](exercicio_js/ex0020_senCosTan/ex0020_senCosTan.html) Usuário informa o valor de um ângulo e programa retorna os valores de seno, cosseno e tangente.
+
+- [ex0021:](exercicio_js/ex0021_lamp/ex0021_lamp.html) Lâmpada acende se estiver apagada ou apaga, se estiver acessa.
+
