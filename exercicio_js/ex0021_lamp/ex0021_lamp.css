@@ -1,0 +1,21 @@
+section {
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input {
+    float: right;
+    width: 80px;
+    height: 50px;
+}
+
+figure img#lamp-off{
+    height: 300px;
+}
+
+figure img#lamp-on{
+    height: 300px;
+    visibility: hidden;
+}
