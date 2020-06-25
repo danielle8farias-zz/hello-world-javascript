@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- adicionando título da página -->
+        <title>JobFinder</title>
+        <!-- metadados para o formato de codificação de caracteres usado no documento -->
+        <meta charset="utf-8">
+        <!-- meta viewport serve para a adaptação ao tela mobile -->
+        <meta name="viewport" content="width=width-device, initial-scale=1.0">
+        <!-- criando a referência para o arquivo css -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!-- criando a referência para o Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+        <!-- usando ícones grátis -->
+        <script src="https://kit.fontawesome.com/0064c53326.js"></script>
+    </head>
+    <body>
+        <!-- agrupando conteúdo responsivo com largura limitada -->
+        <div class="container" id="findjobs">
+            <!-- cabeçalho -->
+            <header>
+                <!-- nav: área com links de navegação -->
+                <nav>
+                    <!-- agrupando elementos da barra de navegação -->
+                    <div class="nav-container">
+                        <!-- alt serve para descrição da imagem -->
+                        <a href="index.html">
+                            <img id="logo" src="img/logo.png" alt="JobFinder">
+                        </a>
+                        <i class="fas fa-bars btn-menumobile"></i>
+                        <!-- lista desordenada -->
+                        <ul>
+                            <!-- li: elementos da lista -->
+                            <!-- a href: elemento âncora para hyperlink -->
+                            <li><a href="findjobs.html">Encontrar Vaga</a></li>
+                            <li><a href="#">Enviar Vaga</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!-- área principal; fora do banner -->
+            <main id="lastjobs-container" class="wrapper" >
+                <!-- título 1 -->
+                <h1>Busque a sua vaga</h1>
+                <div id="job-filter">
+                    <div id="search-form">
+                        <form>
+                            <input type="text" name="job" placeholder="Digite o cargo">
+                            <select name="region">
+                                <option value="">Todos os estados</option>
+                            </select>
+                            <select name="category">
+                                <option value="">Categoria</option>
+                            </select>
+                            <input type="submit" value="Pesquisar">
+                        </form>
+                    </div>
+                </div>
+                <div id="type-filter">
+                    <ul>
+                        <li>
+                            <input type="checkbox" checked><label>CLT</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked><label>PJ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked><label>Home Office</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" checked><label>Free Lancer</label>
+                        </li>
+                    </ul>
+                </div>
+                <!-- lista desordenada de vagas-->
+                <ul>
+                    <!-- li: elementos da lista Google-->
+                    <li>
+                        <!-- a href: elemento âncora para hyperlink -->
+                        <a href="#" class="clickarea" >
+                            <!-- agrupando elementos de vagas -->
+                            <div class="company-box">
+                                <!-- apontando para imagem do Google -->
+                                <img src="img/googlelogo.png">
+                                <!-- agrupando elementos de informação do Google -->
+                                <div class="company-info">
+                                    <!-- título 3 -->
+                                    <h3>Developer</h3>
+                                    <!-- parágrafo -->
+                                    <p>Google</p>
+                                </div>
+                            </div>
+                            <!-- agrupando elementos de localidade da vaga -->
+                            <div class="locality">
+                                <!-- ícone do mapa -->
+                                <i class="fas fa-map-marker-alt"></i>
+                                <!-- parágrafo -->
+                                <p>Mountain View, California</p>
+                            </div>
+                            <!-- agrupando elementos do tipo da vaga -->
+                            <div class="job-type">
+                                <!-- agrupando em linha -->
+                                <span class="clt">CLT</span>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- li: elementos da lista IBM-->
+                    <li>
+                        <!-- a href: elemento âncora para hyperlink -->
+                        <a href="#" class="clickarea" >
+                            <!-- agrupando elementos de vagas -->
+                            <div class="company-box">
+                                <!-- apontando para imagem da IBM -->
+                                <img src="img/ibmlogo.png">
+                                <!-- agrupando elementos de informação da IBM -->
+                                <div class="company-info">
+                                    <!-- título 3 -->
+                                    <h3>DBA</h3>
+                                    <!-- parágrafo -->
+                                    <p>IBM</p>
+                                </div>
+                            </div>
+                            <!-- agrupando elementos de localidade da vaga -->
+                            <div class="locality">
+                                <!-- ícone do mapa -->
+                                <i class="fas fa-map-marker-alt"></i>
+                                <!-- parágrafo -->
+                                <p>Armonk, New York</p>
+                            </div>
+                            <!-- agrupando elementos do tipo da vaga -->
+                            <div class="job-type">
+                                <!-- agrupando em linha -->
+                                <span class="pj">PJ</span>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- li: elementos da lista Linkedin-->
+                    <li>
+                        <!-- a href: elemento âncora para hyperlink -->
+                        <a href="#" class="clickarea" >
+                            <!-- agrupando elementos de vagas -->
+                            <div class="company-box">
+                                <!-- apontando para imagem da Linkedin -->
+                                <img src="img/linkedinlogo.png">
+                                <!-- agrupando elementos de informação da Linkedin -->
+                                <div class="company-info">
+                                    <!-- título 3 -->
+                                    <h3>Front End Developer</h3>
+                                    <!-- parágrafo -->
+                                    <p>Linkedin</p>
+                                </div>
+                            </div>
+                            <!-- agrupando elementos de localidade da vaga -->
+                            <div class="locality">
+                                <!-- ícone do mapa -->
+                                <i class="fas fa-map-marker-alt"></i>
+                                <!-- parágrafo -->
+                                <p>Sunnyvale, California</p>
+                            </div>
+                            <!-- agrupando elementos do tipo da vaga -->
+                            <div class="job-type">
+                                <!-- agrupando em linha -->
+                                <span class="homeoffice">Home Office</span>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- li: elementos da lista Facebook -->
+                    <li>
+                        <!-- a href: elemento âncora para hyperlink -->
+                        <a href="#" class="clickarea" >
+                            <!-- agrupando elementos de vagas -->
+                            <div class="company-box">
+                                <!-- apontando para imagem da Linkedin -->
+                                <img src="img/facebooklogo.png">
+                                <!-- agrupando elementos de informação da Linkedin -->
+                                <div class="company-info">
+                                    <!-- título 3 -->
+                                    <h3>Full Stack Developer</h3>
+                                    <!-- parágrafo -->
+                                    <p>Facebook</p>
+                                </div>
+                            </div>
+                            <!-- agrupando elementos de localidade da vaga -->
+                            <div class="locality">
+                                <!-- ícone do mapa -->
+                                <i class="fas fa-map-marker-alt"></i>
+                                <!-- parágrafo -->
+                                <p>Menlo Park, California</p>
+                            </div>
+                            <!-- agrupando elementos do tipo da vaga -->
+                            <div class="job-type">
+                                <!-- agrupando em linha -->
+                                <span class="pj">PJ</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- agrupando elementos do botão para ver mais vagas -->
+                <div class="btnjobs-container">
+                    <a href="#" class="btn-jobs">Carregar mais vagas</a>
+                </div>
+            </main>
+            <footer>
+                <div class="wrapper">
+                    <div class="footer-box">
+                        <div class="company-footer">
+                            <img src="img/logo.png">
+                            <h2>JobFinder</h2>
+                            <p>A maneira mais fácil de encontrar seu próximo emprego</p>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <div class="articles-footer">
+                            <h2>Artigos recentes</h2>
+                            <ul class="footer-list footer-article-list">
+                                <li>
+                                    <a href="#">Como conseguir o primeiro emprego em tempos de
+                                        crise?
+                                    </a>
+                                    <span class="article-date">05 de fevereiro de 2019</span>
+                                </li>
+                                <li>
+                                    <a href="#">Como conseguir o primeiro emprego em tempos de
+                                        crise?
+                                    </a>
+                                    <span class="article-date">05 de fevereiro de 2019</span>
+                                </li>
+                                <li>
+                                    <a href="#">Como conseguir o primeiro emprego em tempos de
+                                        crise?
+                                    </a>
+                                    <span class="article-date">05 de fevereiro de 2019</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <h2>Nos encontre nas redes sociais</h2>
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>Linkedin</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="wrapper">
+                        <p>Hora de Codar - 2019 - @danielle8farias</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- adicionando título da página -->
+        <title>JobFinder</title>
+        <!-- metadados para o formato de codificação de caracteres usado no documento -->
+        <meta charset="utf-8">
+        <!-- meta viewport serve para a adaptação ao tela mobile -->
+        <meta name="viewport" content="width=width-device, initial-scale=1.0">
+        <!-- criando a referência para o arquivo css -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <!-- criando a referência para o Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+        <!-- usando ícones grátis -->
+        <script src="https://kit.fontawesome.com/0064c53326.js"></script>
+    </head>
+    <body>
+        <!-- agrupando conteúdo responsivo com largura limitada -->
+        <div class="container">
+            <!-- cabeçalho -->
+            <header>
+                <!-- nav: área com links de navegação -->
+                <nav>
+                    <!-- agrupando elementos da barra de navegação -->
+                    <div class="nav-container">
+                        <!-- alt serve para descrição da imagem -->
+                        <a href="index.html">
+                            <img id="logo" src="img/logo.png" alt="JobFinder">
+                        </a>
+                        <i class="fas fa-bars btn-menumobile"></i>
+                        <!-- lista desordenada -->
+                        <ul>
+                            <!-- li: elementos da lista -->
+                            <!-- a href: elemento âncora para hyperlink -->
+                            <li><a href="findjobs.html">Encontrar Vaga</a></li>
+                            <li><a href="sendjobs.html">Enviar Vaga</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- agrupando elementos do banner -->
+                <div id="main-banner">
+                    <!-- agrupando elementos de formulário -->
+                    <div id="search-form">
+                        <!-- título 1 -->
+                        <h1>A maneira mais fácil de encontrar seu emprego</h1>
+                        <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos.</p>
+                        <!-- formulário -->
+                        <form>
+                            <!-- criando controles interativos para formulários -->
+                            <input type="text" name="job" placeholder="Digite o cargo" >
+                            <!-- menu de opções -->
+                            <select name="region">
+                                <option value="">Todos os estados</option>
+                            </select>
+                            <!-- menu de opções -->
+                            <select name="category">
+                                <option value="">Categoria</option>
+                            </select>
+                            <!-- botão de submeter -->
+                            <input type="submit" value="Pesquisar" >
+                        </form>
+                    </div>
+                </div>
+            </header>
+            <!-- área principal; fora do banner -->
+            <main id="lastjobs-container" class="wrapper" >
+                <!-- título 1 -->
+                <h1>Últimas vagas enviadas</h1>
+                <!-- lista desordenada de vagas-->
+                <ul>
+                    <!-- li: elementos da lista Google-->
+                    <li>
+                        <!-- a href: elemento âncora para hyperlink -->
+                        <a href="job.html" class="clickarea" >
+                            <!-- agrupando elementos de vagas -->
+                            <div class="company-box">
+                                <!-- apontando para imagem do Google -->
+                                <img src="img/googlelogo.png">
+                                <!-- agrupando elementos de informação do Google -->
+                                <div class="company-info">
+                                    <!-- título 3 -->
+                                    <h3>Developer</h3>
+                                    <!-- parágrafo -->
+                                    <p>Google</p>
+                                </div>
+                            </div>
+                            <!-- agrupando elementos de localidade da vaga -->
+                            <div class="locality">
+                                <!-- ícone do mapa -->
+                                <i class="fas fa-map-marker-alt"></i>
+                                <!-- parágrafo -->
+                                <p>Mountain View, California</p>
+                            </div>
+                            <!-- agrupando elementos do tipo da vaga -->
+                            <div class="job-type">
+                                <!-- agrupando em linha -->
+                                <span class="clt">CLT</span>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- li: elementos da lista IBM-->
+                    <li>
+                        <!-- a href: elemento âncora para hyperlink -->
+                        <a href="#" class="clickarea" >
+                            <!-- agrupando elementos de vagas -->
+                            <div class="company-box">
+                                <!-- apontando para imagem da IBM -->
+                                <img src="img/ibmlogo.png">
+                                <!-- agrupando elementos de informação da IBM -->
+                                <div class="company-info">
+                                    <!-- título 3 -->
+                                    <h3>DBA</h3>
+                                    <!-- parágrafo -->
+                                    <p>IBM</p>
+                                </div>
+                            </div>
+                            <!-- agrupando elementos de localidade da vaga -->
+                            <div class="locality">
+                                <!-- ícone do mapa -->
+                                <i class="fas fa-map-marker-alt"></i>
+                                <!-- parágrafo -->
+                                <p>Armonk, New York</p>
+                            </div>
+                            <!-- agrupando elementos do tipo da vaga -->
+                            <div class="job-type">
+                                <!-- agrupando em linha -->
+                                <span class="pj">PJ</span>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- li: elementos da lista Linkedin-->
+                    <li>
+                        <!-- a href: elemento âncora para hyperlink -->
+                        <a href="#" class="clickarea" >
+                            <!-- agrupando elementos de vagas -->
+                            <div class="company-box">
+                                <!-- apontando para imagem da Linkedin -->
+                                <img src="img/linkedinlogo.png">
+                                <!-- agrupando elementos de informação da Linkedin -->
+                                <div class="company-info">
+                                    <!-- título 3 -->
+                                    <h3>Front End Developer</h3>
+                                    <!-- parágrafo -->
+                                    <p>Linkedin</p>
+                                </div>
+                            </div>
+                            <!-- agrupando elementos de localidade da vaga -->
+                            <div class="locality">
+                                <!-- ícone do mapa -->
+                                <i class="fas fa-map-marker-alt"></i>
+                                <!-- parágrafo -->
+                                <p>Sunnyvale, California</p>
+                            </div>
+                            <!-- agrupando elementos do tipo da vaga -->
+                            <div class="job-type">
+                                <!-- agrupando em linha -->
+                                <span class="homeoffice">Home Office</span>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- li: elementos da lista Facebook -->
+                    <li>
+                        <!-- a href: elemento âncora para hyperlink -->
+                        <a href="#" class="clickarea" >
+                            <!-- agrupando elementos de vagas -->
+                            <div class="company-box">
+                                <!-- apontando para imagem da Linkedin -->
+                                <img src="img/facebooklogo.png">
+                                <!-- agrupando elementos de informação da Linkedin -->
+                                <div class="company-info">
+                                    <!-- título 3 -->
+                                    <h3>Full Stack Developer</h3>
+                                    <!-- parágrafo -->
+                                    <p>Facebook</p>
+                                </div>
+                            </div>
+                            <!-- agrupando elementos de localidade da vaga -->
+                            <div class="locality">
+                                <!-- ícone do mapa -->
+                                <i class="fas fa-map-marker-alt"></i>
+                                <!-- parágrafo -->
+                                <p>Menlo Park, California</p>
+                            </div>
+                            <!-- agrupando elementos do tipo da vaga -->
+                            <div class="job-type">
+                                <!-- agrupando em linha -->
+                                <span class="pj">PJ</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- agrupando elementos do botão de ver mais vagas -->
+                <div class="btnjobs-container">
+                    <a href="#" class="btn-jobs">Ver mais vagas</a>
+                </div>
+            </main>
+            <!-- áreas menos importantes do que o main -->
+            <section id="sendjobs-container">
+                <div id="sendjobs-inner" class="wrapper">
+                    <h2>Envie uma vaga que será vista por milhares de candidatos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                        pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat. 
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+                        turpis egestas. Maecenas pharetra ipsum vitae purus sodales, et lobortis eros eleifend. 
+                        Quisque scelerisque erat vitae hendrerit rutrum. Sed bibendum ante nulla, eu feugiat ante 
+                        fringilla sit amet. Suspendisse accumsan rhoncus risus ut iaculis. 
+                        Nunc rutrum pharetra ornare. Mauris ut nulla consectetur, tristique tortor vel, 
+                        fringilla urna. Sed vulputate feugiat nunc, in semper augue suscipit sit amet.
+                    </p>
+                    <a href="" class="light-btn">Enviar vaga</a>
+                </div>
+            </section>
+            <section id="status-container" class="wrapper">
+                <h2 class="title-center">Estatísticas do JobFinder</h2>
+                <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                    pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+                    turpis egestas. Maecenas pharetra ipsum vitae purus sodales, et lobortis eros eleifend. 
+                    Quisque scelerisque erat vitae hendrerit rutrum. Sed bibendum ante nulla, eu feugiat ante 
+                    fringilla sit amet. Suspendisse accumsan rhoncus risus ut iaculis. 
+                    Nunc rutrum pharetra ornare. Mauris ut nulla consectetur, tristique tortor vel, 
+                    fringilla urna. Sed vulputate feugiat nunc, in semper augue suscipit sit amet.
+                </p>
+                <div>
+                    <div class="status-box">
+                        <span class="status-qtd">150</span>
+                        <p class="status-text">Vagas abertas</p>
+                    </div>
+                    <div class="status-box">
+                        <span class="status-qtd">250</span>
+                        <p class="status-text">Candidatos contratados</p>
+                    </div>
+                    <div class="status-box">
+                        <span class="status-qtd">50</span>
+                        <p class="status-text">Empresas participantes</p>
+                    </div>
+                    <div class="status-box">
+                        <span class="status-qtd">550</span>
+                        <p class="status-text">Candidatos</p>
+                    </div>
+                </div>
+            </section>
+            <section id="testimony-container">
+                <div class="wrapper">
+                    <h2>Veja o que os candidatos dizem</h2>
+                    <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                        pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat. 
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+                        turpis egestas. Maecenas pharetra ipsum vitae purus sodales, et lobortis eros eleifend. 
+                        Quisque scelerisque erat vitae hendrerit rutrum. Sed bibendum ante nulla, eu feugiat ante 
+                        fringilla sit amet. Suspendisse accumsan rhoncus risus ut iaculis.
+                    </p>
+                    <div class="testimony-box">
+                        <p class="testimony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                            pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat.
+                        </p>
+                        <img src="img/avatar1.png">
+                        <p class="testimony-name">João</p>
+                    </div>
+                    <div class="testimony-box">
+                        <p class="testimony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                            pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat.
+                        </p>
+                        <img src="img/avatar2.png">
+                        <p class="testimony-name">Maria</p>
+                    </div>
+                    <div class="testimony-box">
+                        <p class="testimony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                            pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat.
+                        </p>
+                        <img src="img/avatar3.png">
+                        <p class="testimony-name">Pedro</p>
+                    </div>
+                    <div class="testimony-box">
+                        <p class="testimony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                            pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat.
+                        </p>
+                        <img src="img/avatar4.png">
+                        <p class="testimony-name">Alexia</p>
+                    </div>
+                </div>
+            </section>
+            <section id="blog-container" class="wrapper">
+                <h2 class="title-center">Últimos artigos do nosso blog</h2>
+                <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                    pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat. 
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac 
+                    turpis egestas. Maecenas pharetra ipsum vitae purus sodales, et lobortis eros eleifend. 
+                    Quisque scelerisque erat vitae hendrerit rutrum. Sed bibendum ante nulla, eu feugiat ante 
+                    fringilla sit amet. Suspendisse accumsan rhoncus risus ut iaculis.
+                </p>
+                <div class="article-box">
+                    <img src="img/blog1.jpg">
+                    <h4><a href="#">Título do artigo</a></h4>
+                    <p class="article-date">05 de fevereiro de 2019 | 10 comentários</p>
+                    <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dui lacus, 
+                        pellentesque a tincidunt ut, fringilla a tellus. Nullam quis elementum erat.
+                    </p>
+                    <a href="#" class="article-btn light-btn">Ler post</a>
+                </div>
+                <div class="article-box">
+                    <img src="img/blog2.jpg">
+                    <h4><a href="#">Título do artigo</a></h4>
+                    <p class="article-date">21 de março de 2019 | 6 comentários</p>
+                    <p class="article-resume">Ut fringilla nibh quis lectus volutpat congue. 
+                        Sed euismod nunc ac arcu mattis, id sollicitudin nibh venenatis. 
+                        Curabitur ac imperdiet libero. Nullam sit amet euismod enim.
+                    </p>
+                    <a href="#" class="article-btn light-btn">Ler post</a>
+                </div>
+                <div class="article-box">
+                    <img src="img/blog3.jpg">
+                    <h4><a href="#">Título do artigo</a></h4>
+                    <p class="article-date">18 de maio de 2019 | 1 comentário</p>
+                    <p class="article-resume">Praesent in erat tempor quam aliquam vestibulum in non nibh. 
+                        Morbi aliquet tellus eget tortor consectetur volutpat. Nam vel cursus libero. 
+                        Vivamus eget nisi porttitor, sollicitudin arcu ac, elementum lorem.
+                    </p>
+                    <a href="#" class="article-btn light-btn">Ler post</a>
+                </div>
+            </section>
+            <footer>
+                <div class="wrapper">
+                    <div class="footer-box">
+                        <div class="company-footer">
+                            <img src="img/logo.png">
+                            <h2>JobFinder</h2>
+                            <p>A maneira mais fácil de encontrar seu próximo emprego</p>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <div class="articles-footer">
+                            <h2>Artigos recentes</h2>
+                            <ul class="footer-list footer-article-list">
+                                <li>
+                                    <a href="#">Como conseguir o primeiro emprego em tempos de
+                                        crise?
+                                    </a>
+                                    <span class="article-date">05 de fevereiro de 2019</span>
+                                </li>
+                                <li>
+                                    <a href="#">Como conseguir o primeiro emprego em tempos de
+                                        crise?
+                                    </a>
+                                    <span class="article-date">05 de fevereiro de 2019</span>
+                                </li>
+                                <li>
+                                    <a href="#">Como conseguir o primeiro emprego em tempos de
+                                        crise?
+                                    </a>
+                                    <span class="article-date">05 de fevereiro de 2019</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <h2>Nos encontre nas redes sociais</h2>
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>Linkedin</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="wrapper">
+                        <p>Hora de Codar - 2019 - @danielle8farias</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
