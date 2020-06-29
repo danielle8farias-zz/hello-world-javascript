@@ -1,5 +1,5 @@
 body {
-    width: 500px;
+    width: 400px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
@@ -27,6 +27,14 @@ article h2 {
 
 article {
     margin-bottom: 200px;
+}
+
+article#tela img {
+    width: 100%;
+}
+
+article#sensores img {
+    width: 100%;
 }
 
 img.img-dir {
