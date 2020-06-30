@@ -66,7 +66,8 @@
                         Atualizado em 01/Maio/2013
                     </h3>
                 </header>
-                <form action="">
+
+                <form method="POST" id="fContato" action="mailto:contato@cursoemvideo.com" oninput="calcularTotal()">
                     <fieldset id="usuario">
                         <legend>
                             Identificação do Usuário
@@ -126,30 +127,103 @@
                             </label>
                             <input type="number" name="tNum" id="cNum">
                         </p>
-                        
-                        Estado:
-                        Cidade:    
+                        <p>
+                            <label for="cEst">
+                                Estado:
+                            </label>
+                            <select name="tEst" id="cEst">
+                                <optgroup label="Região Norte">
+                                    <option value="PA">
+                                        Pará
+                                    </option>
+                                    <option value="AM">
+                                        Amazonas
+                                    </option>    
+                                </optgroup>
+                                <optgroup label="Região Nordeste">
+                                    <option value="PI">
+                                        Piauí
+                                    </option>    
+                                    <option value="SE">
+                                        Sergipe
+                                    </option>
+                                </optgroup>
+                                <optgroup label="Região Centro-Oeste">
+                                    <option value="DF">
+                                        Distrito Federal
+                                    </option>    
+                                </optgroup>
+                                <optgroup label="Região Sudeste">
+                                    <option value="SP">
+                                        São Paulo
+                                    </option>
+                                    <option value="RJ">
+                                        Rio de Janeiro
+                                    </option>
+                                    <option selected value="ES">
+                                        Espírito Santo
+                                    </option>    
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="cCid">
+                                Cidade:
+                            </label>
+                            <input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua cidade">
+                        </p>
                     </fieldset>
                     <fieldset id="mensagem">
                         <legend>
                             Mensagem do Usuário
                         </legend>
-                        Grau de Urgência:
-                        Mensagem:    
+                        <p>
+                            <label for="cUrg">
+                                Grau de Urgência: 
+                            </label>
+                            Mín
+                            <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="5">
+                            Máx
+                        </p>
+                        <p>
+                            <label for="cMsg">
+                                Mensagem:
+                            </label>
+                            <textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem"></textarea>
+                        </p>
                     </fieldset>
                     <fieldset id="pedido">
                         <legend>
                             Quero um Google Glass
                         </legend>
-                        Gostaria de adquirir um Google Glass quando disponível
-                        Cor:
-                        Quantidade:
-                        Preço Total: R$    
+                        <p>
+                            <input type="checkbox" name="tPed" id="cPed">
+                            <label for="cPed">
+                                Gostaria de adquirir um Google Glass quando disponível
+                            </label>
+                        </p>
+                        <p>
+                            <label for="cCor">
+                                Cor:
+                            </label>
+                            <input type="color" name="tCor" id="cCor" value="#ffffff">
+                        </p>
+                        <p>
+                            <label for="cQtd">
+                                Quantidade:
+                            </label>
+                            <input type="number" name="tQtd" id="cQtd" min="1" max="5" value="1">
+                        </p>
+                        <p>
+                            <label for="cTot">
+                                Preço Total: R$
+                            </label>
+                            <input type="text" name="tTot" id="cTot" placeholder="Total a pagar" readonly>
+                        </p>
                     </fieldset>
-                                       
-                    [BOTÃO ENVIAR]
-                    
+                    <input type="submit" value="Enviar">                    
                 </form>
+
             </section>
             <footer id="rodape">
                 <p>
