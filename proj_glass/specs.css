@@ -1,0 +1,22 @@
+section#conteudo {
+    width: 900px;
+    margin: auto;
+}
+
+figure#areas {
+    width: 400px;
+    margin: 0;
+    float: left;
+}
+
+iframe#frame-spec {
+    width: 410px;
+    height: 250px;
+    float: right;
+    border: none;
+    overflow: hidden;
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
+}
