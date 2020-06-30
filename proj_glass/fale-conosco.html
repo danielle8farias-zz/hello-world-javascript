@@ -66,7 +66,7 @@
                         Atualizado em 01/Maio/2013
                     </h3>
                 </header>
-                <form method="POST" id="fContato" action="mailto:contato@cursoemvideo.com">
+                <form method="POST" id="fContato" action="mailto:contato@cursoemvideo.com" oninput="calcularTotal()">
                     <fieldset id="usuario">
                         <legend>
                             Identificação do Usuário
@@ -178,13 +178,17 @@
                         </legend>
                         <p>
                             <label for="cUrg">
-                                Grau de Urgência:
+                                Grau de Urgência: 
                             </label>
+                            Mín
+                            <input type="range" name="tUrg" id="cUrg" min="0" max="10" step="5">
+                            Máx
                         </p>
                         <p>
                             <label for="cMsg">
                                 Mensagem:
                             </label>
+                            <textarea name="tMsg" id="cMsg" cols="45" rows="10" placeholder="Deixe aqui sua mensagem"></textarea>
                         </p>
                     </fieldset>
                     <fieldset id="pedido">
@@ -192,6 +196,7 @@
                             Quero um Google Glass
                         </legend>
                         <p>
+                            <input type="checkbox" name="tPed" id="cPed">
                             <label for="cPed">
                                 Gostaria de adquirir um Google Glass quando disponível
                             </label>
@@ -200,21 +205,22 @@
                             <label for="cCor">
                                 Cor:
                             </label>
+                            <input type="color" name="tCor" id="cCor" value="#ffffff">
                         </p>
                         <p>
                             <label for="cQtd">
                                 Quantidade:
                             </label>
+                            <input type="number" name="tQtd" id="cQtd" min="1" max="5" value="1">
                         </p>
                         <p>
                             <label for="cTot">
                                 Preço Total: R$
                             </label>
+                            <input type="text" name="tTot" id="cTot" placeholder="Total a pagar" readonly>
                         </p>
                     </fieldset>
-                                       
-                    [BOTÃO ENVIAR]
-                    
+                    <input type="submit" value="Enviar">                    
                 </form>
             </section>
             <footer id="rodape">
