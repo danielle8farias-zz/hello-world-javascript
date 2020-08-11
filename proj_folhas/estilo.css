@@ -75,3 +75,17 @@
     color: #222;
     padding-top: 5px;
 }
+
+.container-paragrafo-tabela {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+p.paragrafo-tabela {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+}
