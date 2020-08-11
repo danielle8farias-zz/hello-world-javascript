@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icones-svg {
+    display: none;
+}
+
+.corpo-pagina {
+    margin: 0 auto;
+}
+
+.container-titulo-1 {
+    width: 749px;
+    height: 122px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#titulo-1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 39px;
+    color: #000;
+}
