@@ -43,3 +43,35 @@
     text-align: justify;
     color: #222;
 }
+
+.tabela-verde {
+    width: 724px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tab-superior {
+    text-align: center;
+    border: 3px solid #2B903C;
+    border-radius: 27px;
+    height: 180px;
+    width: 320px;
+    padding: 8px 5px 0 0;
+    margin: 0 auto;
+}
+
+.container-titulo-2 {
+    width: 320px;
+    height: 50px;
+}
+
+.titulo-tab-superior {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #222;
+    padding-top: 5px;
+}
