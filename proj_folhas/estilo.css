@@ -27,3 +27,19 @@
     line-height: 39px;
     color: #000;
 }
+
+.container-introducao {
+    width: 749px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#introducao-folhas {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+    color: #222;
+}
