@@ -170,14 +170,14 @@ p.paragrafo-tabela {
     color: #000;
 }
 
-.borda-superior-aba-1 {
-    border-bottom: 1px solid #C4C4C4;
-    width: 750px;
-}
-
 .tab-content {
     margin-bottom: 32px;
     text-align: justify;
+}
+
+.borda-superior-aba-1 {
+    border-bottom: 1px solid #C4C4C4;
+    width: 750px;
 }
 
 .aba-1 {
@@ -259,4 +259,156 @@ p.texto-li-folha1 {
     content: counter(li);
     display: inline-block;
     padding-right: 8px;
+}
+
+.borda-superior-aba-2 {
+    border-bottom: 1px solid #C4C4C4;
+    width: 750px;
+}
+
+.aba-2 {
+    width: 750px;
+    margin: auto;
+    clear: both;
+    border: 1px solid #C4C4C4;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+.slide-folha {
+    display: none;
+}
+
+#slide-inicial {
+    display: initial;
+}
+
+.container-cartao {
+    width: 237px;
+    height: 362px;
+    position: relative;
+    display: table-cell;
+}
+
+.foto {
+    float: right;
+    height: 118px;
+    width: 118px;
+    position: absolute;
+    left: 50%;
+}
+
+#foto-perfil {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.perfil {
+    background-color: #C4C4C4;
+    width: 225px;
+    height: 320px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10%;
+    z-index: -1;
+}
+
+.info {
+    width: 111px;
+    height: 43px;
+    font-size: 14px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 23px;
+    text-align: center;
+    color: #222222;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+
+.nome {
+    width: 209px;
+    height: 48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#nome-folha-1 {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+
+.descricao {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #222;
+}
+
+#descricao-folha-1 {
+    top: 42%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
+
+.email-telefone {
+    width: 190px;
+    height: 56px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.icone-texto {
+    width: 148px;
+    height: 22px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.icone {
+    width: 22px;
+    height: 22px;
+}
+
+#icone-email {
+    width: 22px;  
+    height: 22px;
+  }
+
+#icone-telefone {
+      width: 22px;  
+      height: 22px;  
+}
+
+.icone-texto a {
+    margin-left: 0.2rem;
+    color: #222;
 }
