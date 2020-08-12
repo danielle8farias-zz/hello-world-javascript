@@ -123,3 +123,49 @@ p.paragrafo-tabela {
     margin: 0 auto;
     float: right;
 }
+
+.abas-folhas {
+    margin: 0 auto;
+}
+
+.container-abas {
+    width: 750px;
+    margin: auto;
+}
+
+.container-titulos-abas {
+    width: 750px;    
+}
+
+.tabs-nav {
+    list-style: none;
+}
+
+.tabs-nav li {
+    display: inline;
+}
+
+.tabs-nav a {
+    display: inline-block;
+    background: #EAEBEE;
+    border: 1px solid #C4C4C4;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: -1px;
+}
+
+.active a {
+    margin-bottom: -1px;
+    background: #fff;
+    border-bottom-color: transparent;
+}
+
+#titulo-aba {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600; /* diferente do protótipo */
+    font-size: 14px;
+    line-height: 23px;
+    color: #000;
+}

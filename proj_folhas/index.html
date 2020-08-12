@@ -62,7 +62,7 @@
                             glorious dawn awaits encyclopaedia galactica birth vastness is bearable only through love
                         </p>
                     </div>
-                </div>
+                </div> <!-- fim tabela verde superior -->
 
                 <div class="ligaturas">
                     <svg viewBox="0 0 429 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,7 +86,7 @@
                                 in mystery are creatures of the cosmos? Dream of the mind's eye the only home we've ever known something incredible is waiting to be known
                             </p>
                         </div>
-                    </div>
+                    </div> <!-- fim tabela verde inferior esquerda -->
 
                     <div class="tab-inferior-direita">
                         <div class="container-titulo-2 mobile-titulo-2">
@@ -102,15 +102,47 @@
                                 Made in the interiors of collapsing stars great turbulent clouds Orion's sword paroxysm of global death dream of the mind's eye and billions upon billions
                             </p>
                         </div>
-                    </div>
+                    </div> <!-- fim tabela verde inferior direita -->
 
+                </div> <!-- fim tabela inferior -->
+
+            </div> <!-- fim tabela verde-->
+
+            <div class="abas-folhas">
+
+                <div class="container-abas" ng-app ng-init="tab=2">
                     
-                </div>
+                    <div class="container-titulos-abas">
+                        <ul class="tabs-nav">
+                            <li ng-click="tab=2" ng-class="{'active' : tab==2}">
+                                <a id="titulo-aba">
+                                    Objetivos
+                                </a>
+                            </li>
+                            <li onclick="slide_atual(1)" ng-click="tab=3" ng-class="{'active' : tab==3}">
+                                <a id="titulo-aba">
+                                    Membros
+                                </a>
+                            </li>
+                            <li ng-click="tab=4" ng-class="{'active' : tab==4}">
+                                <a id="titulo-aba">
+                                    Reuniões
+                                </a>
+                            </li>
+                        </ul>
+                    </div> <!-- fim container-titulos-abas -->
 
+                </div> <!-- fim container-abas -->
 
-            </div>
+                <div class="tab-content" ng-show="tab == 2"> <!-- primeira aba -->
+                
+                </div> <!-- fim primeira aba -->
 
-        </div>
+            </div> <!-- fim abas-folhas -->
+
+        </div> <!-- fim corpo-pagina -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script> <!-- framework angular -->
     
     </body>
 </html>
