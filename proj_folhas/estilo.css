@@ -89,3 +89,9 @@ p.paragrafo-tabela {
     font-size: 15px;
     line-height: 20px;
 }
+
+.ligaturas {
+    width: 429px;
+    height: 53px;
+    margin: 0 auto;
+}
