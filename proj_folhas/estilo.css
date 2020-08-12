@@ -83,7 +83,7 @@
 }
 
 p.paragrafo-tabela {
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -173,4 +173,90 @@ p.paragrafo-tabela {
 .borda-superior-aba-1 {
     border-bottom: 1px solid #C4C4C4;
     width: 750px;
+}
+
+.tab-content {
+    margin-bottom: 32px;
+    text-align: justify;
+}
+
+.aba-1 {
+    width: 750px;
+    margin: auto;
+    clear: both;
+    border: 1px solid #C4C4C4;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 20px;
+    padding-left: 16px;
+
+}
+
+ol.folhas-lista {
+    list-style: none;
+    margin-left: -1rem;
+    margin-bottom: 20px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.li-numero-impar {
+    background-color: #EAEBEE;
+}
+
+p.texto-li-folha1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #222;
+    float: left;
+    margin: 16px;
+}
+
+.tab-content li {
+    counter-increment: li;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    display: flex;
+    padding-left: 20px;
+}
+
+.tab-content li::before {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    list-style-position: inside;
+    color: #4F4F4F;
+    opacity: 20%;
+    content: counter(li);
+    display: inline-block;
+    padding-right: 8px;
 }
