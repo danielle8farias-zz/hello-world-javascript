@@ -169,3 +169,8 @@ p.paragrafo-tabela {
     line-height: 23px;
     color: #000;
 }
+
+.borda-superior-aba-1 {
+    border-bottom: 1px solid #C4C4C4;
+    width: 750px;
+}
