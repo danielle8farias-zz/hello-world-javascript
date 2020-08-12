@@ -66,7 +66,7 @@
     height: 50px;
 }
 
-.titulo-tab-superior {
+.titulo-tab {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
@@ -94,4 +94,21 @@ p.paragrafo-tabela {
     width: 429px;
     height: 53px;
     margin: 0 auto;
+}
+
+.tab-inferior {
+    width: 322px;
+    height: 180px;
+    display: contents;
+}
+
+.tab-inferior-esquerda {
+    text-align: center;
+    border: 3px solid #2B903C;
+    border-radius: 27px;
+    height: 180px;
+    width: 320px;
+    padding: 8px 5px 0 0;
+    margin: 0 auto;
+    float: left;
 }
