@@ -426,3 +426,57 @@ p.texto-li-folha1 {
     height: 110px;
     position: absolute;
 }
+
+
+/**/
+
+.rodape-aba-2 {
+    width: 730px;
+    height: 36px;
+    position: relative;
+}
+
+.navegador-slide {
+    position: absolute;
+    left: 38%;
+}
+
+.pontos-pagina-slide {
+    padding-top: 0.3rem;
+}
+
+.navegador-slide,
+.pontos-pagina-slide {
+    display: inline-flex;
+}
+
+.seta-slide {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.seta-slide:hover {
+    opacity: 0.7;
+}
+
+.ponto-pagina {
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 100%;
+    background-color: #C4C4C4;
+    transition: 0.6s ease;
+}
+
+.ponto-pagina+.ponto-pagina {
+    margin-left: 0.5rem;
+}
+
+.ativo,
+.ponto-pagina:hover {
+    background-color: #4F4F4F;
+}
+
+.seta-slide,
+.ponto-pagina {
+    cursor: pointer;
+}
