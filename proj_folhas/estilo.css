@@ -412,3 +412,17 @@ p.texto-li-folha1 {
     margin-left: 0.2rem;
     color: #222;
 }
+
+#nome-folha-2 {
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+#descricao-folha-2 {
+    top: 45%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
