@@ -427,6 +427,20 @@ p.texto-li-folha1 {
     position: absolute;
 }
 
+#nome-folha-3 {
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+#descricao-folha-3 {
+    top: 48%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
+
 
 /**/
 
