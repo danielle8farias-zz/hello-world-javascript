@@ -441,6 +441,87 @@ p.texto-li-folha1 {
     position: absolute;
 }
 
+#nome-folha-4 {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+#descricao-folha-4 {
+    top: 43%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
+
+#nome-folha-5 {
+    position: absolute;
+    top: 35%;
+    left: 3%;
+}
+
+#descricao-folha-5 {
+    top: 45%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
+
+#nome-folha-6 {
+    position: absolute;
+    top: 28%;
+    left: 3%;
+}
+
+#descricao-folha-6 {
+    top: 42%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
+
+#nome-folha-7 {
+    position: absolute;
+    top: 29%;
+}
+
+#descricao-folha-7 {
+    top: 42%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
+
+#nome-folha-8 {
+    position: absolute;
+    top: 29%;
+}
+
+#descricao-folha-8 {
+    top: 42%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
+
+#nome-folha-9 {
+    position: absolute;
+    top: 29%;
+}
+
+#descricao-folha-9 {
+    top: 42%;
+    left: 6%;
+    width: 193px;
+    height: 110px;
+    position: absolute;
+}
+
 
 /**/
 
