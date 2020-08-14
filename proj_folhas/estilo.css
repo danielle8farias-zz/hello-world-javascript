@@ -330,7 +330,7 @@ p.texto-li-folha1 {
     color: #222222;
     position: absolute;
     top: 6%;
-    left: 5%;
+    left: 2%;
 }
 
 .nome {
@@ -349,7 +349,7 @@ p.texto-li-folha1 {
 #nome-folha-1 {
     position: absolute;
     top: 25%;
-    left: 12%;
+    left: 2%;
 }
 
 .descricao {
@@ -415,12 +415,12 @@ p.texto-li-folha1 {
 
 #nome-folha-2 {
     position: absolute;
-    top: 35%;
+    top: 28%;
     left: 3%;
 }
 
 #descricao-folha-2 {
-    top: 45%;
+    top: 42%;
     left: 6%;
     width: 193px;
     height: 110px;
@@ -429,98 +429,30 @@ p.texto-li-folha1 {
 
 #nome-folha-3 {
     position: absolute;
-    top: 35%;
+    top: 31%;
     left: 3%;
 }
 
 #descricao-folha-3 {
-    top: 48%;
+    top: 44%;
     left: 6%;
     width: 193px;
     height: 110px;
     position: absolute;
 }
 
-#nome-folha-4 {
+#nome-folha1-slide3 {
     position: absolute;
-    top: 30%;
-    left: 3%;
+    top: 25%;
+    left: 7%;
 }
 
-#descricao-folha-4 {
-    top: 43%;
-    left: 6%;
-    width: 193px;
-    height: 110px;
+#nome-folha2-slide3{
     position: absolute;
+    top: 27%;
+    left: 7%;
 }
 
-#nome-folha-5 {
-    position: absolute;
-    top: 35%;
-    left: 3%;
-}
-
-#descricao-folha-5 {
-    top: 45%;
-    left: 6%;
-    width: 193px;
-    height: 110px;
-    position: absolute;
-}
-
-#nome-folha-6 {
-    position: absolute;
-    top: 28%;
-    left: 3%;
-}
-
-#descricao-folha-6 {
-    top: 42%;
-    left: 6%;
-    width: 193px;
-    height: 110px;
-    position: absolute;
-}
-
-#nome-folha-7 {
-    position: absolute;
-    top: 29%;
-}
-
-#descricao-folha-7 {
-    top: 42%;
-    left: 6%;
-    width: 193px;
-    height: 110px;
-    position: absolute;
-}
-
-#nome-folha-8 {
-    position: absolute;
-    top: 29%;
-}
-
-#descricao-folha-8 {
-    top: 42%;
-    left: 6%;
-    width: 193px;
-    height: 110px;
-    position: absolute;
-}
-
-#nome-folha-9 {
-    position: absolute;
-    top: 29%;
-}
-
-#descricao-folha-9 {
-    top: 42%;
-    left: 6%;
-    width: 193px;
-    height: 110px;
-    position: absolute;
-}
 
 
 /**/
