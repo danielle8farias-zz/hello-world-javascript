@@ -459,9 +459,6 @@ p.texto-li-folha1 {
     left: 3%;
 }
 
-
-/**/
-
 .rodape-aba-2 {
     width: 730px;
     height: 36px;
@@ -511,4 +508,56 @@ p.texto-li-folha1 {
 .seta-slide,
 .ponto-pagina {
     cursor: pointer;
+}
+
+.borda-superior-aba-3 {
+    border-bottom: 1px solid #C4C4C4;
+    width: 750px;
+}
+
+.aba-3 {
+    width: 750px;
+    margin: auto;
+    clear: both;
+    border: 1px solid #C4C4C4;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-top: 20px;
+    padding-left: 16px;
+}
+
+th {
+    font-weight: bold;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    background-color: #7CBC6C;
+}
+
+td {
+    font-family: 'Open Sans';
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+td,
+th {
+    border: 1px solid #C4C4C4;
+    text-align: center;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+table.tabela-folhas {
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
