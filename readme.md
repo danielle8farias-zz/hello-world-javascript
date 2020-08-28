@@ -42,3 +42,5 @@
 
 - [ex0021:](exercicio_js/ex0021_lamp/ex0021_lamp.html) Lâmpada acende se estiver apagada ou apaga, se estiver acessa.
 
+- [ex0022:](exercicio_js/ex0022_funcao_argumento/ex0022_funcao_argumento.html) Função que recebe 3 argumentos nas caixas abaixo e retornar a multiplicação entre eles ou avisa se um deles estiver vazio.
+
