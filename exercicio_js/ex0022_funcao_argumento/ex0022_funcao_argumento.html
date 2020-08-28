@@ -1,0 +1,51 @@
+<!--identifica para o navegador HTML5-->
+<!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
+    <head>
+        <!--unicode para leitura correta de caracteres-->
+        <meta charset="UTF-8">
+        <!--portando para mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
+        <link rel="stylesheet" href="ex0022_funcao_argumento.css">
+        <!--título que aparece na parte superior da janela-->
+        <title>Função com 3 argumentos</title>
+    </head>
+    <!--corpo do site-->
+    <body>
+        <!--cabeçalho-->
+        <header>
+            <!--título 1-->
+            <h1>Função com 3 argumentos</h1>
+            <!--parágrafo-->
+            <p>
+                Inserir 3 argumentos nas caixas abaixo e retornar a multiplicação entre eles ou avisa se estiver vazio.
+            </p>
+        </header>
+        <!--seção-->
+        <section>
+            <!--divisão para caixas de texto-->
+            <div>
+                <!--caixa de texto que recebe o valor-->
+                <p>Digite o 1º valor: <input type="number" name="valor1" id="txt-valor-1"> </p>
+                <p>Digite o 2º valor: <input type="number" name="valor2" id="txt-valor-2"> </p>
+                <p>Digite o 3º valor: <input type="number" name="valor3" id="txt-valor-3"> </p>
+            </div>
+            <!--botão que chama a função-->
+            <div>
+                <input type="button" value="enviar" onclick="calcular()">
+            </div>
+            <!--divisão de resposta-->
+            <div id="res"></div>
+        </section>
+        <!--rodapé do site-->
+        <footer>
+            <p>&copy; danielle8farias</p>
+        </footer>
+        <!--link para o script que será executado nessa página-->
+        <script src="ex0022_funcao_argumento.js"></script>
+    </body>
+</html>
