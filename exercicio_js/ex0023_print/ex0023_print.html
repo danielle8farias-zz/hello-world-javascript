@@ -1,0 +1,45 @@
+<!--identifica para o navegador HTML5-->
+<!DOCTYPE html>
+<!--inicia a tag HTML-->
+<!--identifica o idioma para o navegador-->
+<html lang="pt-br">
+    <!--aqui vão meta dados-->
+    <head>
+        <!--unicode para leitura correta de caracteres-->
+        <meta charset="UTF-8">
+        <!--portando para mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link do CSS-->
+        <link rel="stylesheet" href="ex0023_print.css">
+        <!--título que aparece na parte superior da janela-->
+        <title>Imprimindo mensagem na tela</title>
+    </head>
+    <!--corpo do site-->
+    <body>
+        <!--cabeçalho-->
+        <header>
+            <!--título 1-->
+            <h1>Olá</h1>
+            <!--parágrafo-->
+            <p>Por favor, clique no botão abaixo</p>
+        </header>
+        <!--seção-->
+        <section>
+            <!--container-->
+            <div>
+                <div>
+                    <!-- chamando função enviar()-->
+                    <input type="button" class="botao" value="clique aqui" onclick="enviar()">
+                </div>
+                <!--resposta aparecerá aqui-->
+                <p id="res"></p>
+            </div>
+        </section>
+        <!--rodapé do site-->
+        <footer>
+            <p>&copy; danielle8farias</p>
+        </footer>
+        <!--link para o script que será executado nessa página-->
+        <script src="ex0001_boasVindas.js"></script>    
+    </body>
+</html>

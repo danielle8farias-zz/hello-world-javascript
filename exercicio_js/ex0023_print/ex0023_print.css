@@ -1,0 +1,78 @@
+/* corpo do site */
+body {
+    /* cor de fundo*/
+    background-color: #EAE1DF;
+    /* cor da fonte*/
+    color: #402E2A;
+    /* tipo, tamanho e estilo*/
+    font: normal 20px Arial;
+}
+
+/* cabeçalho */
+header {
+    text-align: center;
+}
+
+/* seção */
+section {
+    /* cor de fundo */
+    background: white;
+    /* bordas arredondadas */
+    border-radius: 10px;
+    /* espaçamento */
+    padding: 15px;
+    /* comprimento */
+    width: 500px;
+    /* centralizando */
+    margin: auto;
+    /* tamanho e cor da sombra da seção */
+    box-shadow: 3px 3px 10px #617A61;
+}
+
+/*estilo do botão enviar*/
+.botao {
+    /* espessura da borda; estilo; cor */
+    border: 1px solid #684551;
+    /* arredondamento da borda */
+    border-radius: 3px;
+    /* altura da linha */
+    line-height: 25px;
+    /* espassamento interno */
+    padding: 20px;
+    /* tamanho da fonte */
+    font-size: 18px;
+    /* alinhamento do texto */
+    text-align: center;
+    /* cor de fundo do botão */
+    background-color: palevioletred;
+    /* sombra do botão */
+    /* inset = interna */
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .3),
+                inset -2px -2px 3px rgba(0, 0, 0, .3);
+    background-image: linear-gradient(to top left,
+                rgba(0, 0, 0, .2),
+                rgba(0, 0, 0, .2) 10%,
+                rgba(0, 0, 0, 0));
+}
+
+/* modifica cor do botão ao passar o mouse */
+.botao:hover {
+    background-color: #EAE1DF;
+}
+
+
+/* rodapé */
+footer {
+    /* cor da fonte*/
+    color: white;
+    /* alinhamento do texto */
+    text-align: center;
+    /* tipo da fonte */
+    font-style: italic;
+}
+
+/* todas as tags div que houver no doc html */
+div {
+    /* alinhamento do texto */
+    text-align: center;
+}
