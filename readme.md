@@ -44,3 +44,5 @@
 
 - [ex0022:](exercicio_js/ex0022_funcao_argumento/ex0022_funcao_argumento.html) Função que recebe 3 argumentos nas caixas abaixo e retornar a multiplicação entre eles ou avisa se um deles estiver vazio.
 
+- [ex0023:](exercicio_js/ex0023_print/ex0023_print.html) Imprime mensagem na tela ao clicar no botão.
+
