@@ -1,4 +1,10 @@
-/** escrevendo no HMTL com o javascript */
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Escrevendo no documento HMTL com o Javascript.
+*/
+
+
 // abre tag h1
 document.write('<h1>')
 // escreve na tag h1

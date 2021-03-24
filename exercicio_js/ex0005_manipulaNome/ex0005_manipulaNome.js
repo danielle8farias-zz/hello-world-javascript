@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuária informa um nome e programa retorna esse nome em caixa alta, minúsculo e quantas letras possui.
+*/
+
+
 //função é chamada ao clicar o botão
 function enviar() {
     //criando variável

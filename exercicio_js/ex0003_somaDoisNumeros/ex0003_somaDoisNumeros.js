@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuária digita dois números e programa retorna a soma entre eles.
+*/
+
+
 //função é chamada ao clicar no botão
 function somar(){
     //criando variável

@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuária informa um número e programa retorna o anterior e sucessor desse.
+*/
+
+
 //função é chamada ao clicar no botão
 function enviar() {
     //criando variável

@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuária digita, em números, a data completa de nascimento e programa retorna essa informação formatada.
+*/
+
+
 //função é chamada ao clicar no botão
 function enviar() {
     //criando variável
