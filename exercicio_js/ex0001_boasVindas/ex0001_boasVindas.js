@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Lê o nome de uma usuária e retorna o nome com uma mensagem de boas-vindas.
+*/
+
+
 //criando variável
 //pegando elemento pelo id do html
 let nome = document.getElementById('nome')

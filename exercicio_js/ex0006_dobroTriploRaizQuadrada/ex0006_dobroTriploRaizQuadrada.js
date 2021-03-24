@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuária informa um número e programa retorna o dobro, triplo e raiz quadrada desse número.
+*/
+
+
 //função é chamada ao clicar no botão
 function calcular() {
 
