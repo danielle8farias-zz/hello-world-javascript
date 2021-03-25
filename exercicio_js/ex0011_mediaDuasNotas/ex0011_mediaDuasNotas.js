@@ -1,3 +1,13 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuário informa dois valores para as notas e programa calcula e retorna a média.
+* Se a média for menor do que 5, retorna que o aluno foi reprovado.
+* Se a média for entre 5 e 7, retorna que está de recuperação.
+* Se maior do que 7, está aprovado.
+*/
+
+
 //função é chamada ao clicar no botão
 function media(){
     //criando variável

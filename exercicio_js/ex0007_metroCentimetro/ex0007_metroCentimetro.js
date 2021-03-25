@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuária informa um valor em metros e programa retorna este em centímetros e milímetros.
+*/
+
+
 //função é chamada ao clicar no botão
 function calcular() {
     //criando variável

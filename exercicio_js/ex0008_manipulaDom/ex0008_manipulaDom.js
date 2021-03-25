@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Apenas algumas manipulações do DOM.
+*/
+
+
 // mostrando config de caractere
 document.write(document.charset + '<br/>')
 

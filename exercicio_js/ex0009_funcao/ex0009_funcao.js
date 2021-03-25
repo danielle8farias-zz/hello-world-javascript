@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Interação do DOM com o mouse e botão.
+*/
+
+
 //função chamada ao clicar no quadrado
 function clicar(){
     //pegando elemento pelo id do html

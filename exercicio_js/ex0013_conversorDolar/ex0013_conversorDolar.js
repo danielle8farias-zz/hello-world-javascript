@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuário insere valor em Reais e programa retorna a conversão em dólar.
+*/
+
+
 //função é chamada ao clicar no botão
 function calcular() {
     //criando variável

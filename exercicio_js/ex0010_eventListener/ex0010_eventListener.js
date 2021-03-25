@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Interação do DOM com o mouse e botão usando eventListener.
+*/
+
+
 //pegando elemento pelo id do html
 //criando variável
 let areaClique = document.getElementById('area')

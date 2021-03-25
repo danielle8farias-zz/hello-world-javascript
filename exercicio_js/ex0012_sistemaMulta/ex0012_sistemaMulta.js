@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuária digita um valor de velocidade de um carro. Se a velocidade for maior do que 60 Km/h o programa informa que ele foi multado.
+*/
+
+
 //função é chamada ao clicar no botão
 function calcular() {
     //criando variável
@@ -5,7 +12,7 @@ function calcular() {
     let velocidade = document.getElementById('txtvel')
     //pegando elemento através do seletor
     let res = document.querySelector('div#res')
-  
+
     //value pega o valor da variável
     //escrevendo no doc html
     res.innerHTML = `<p>Sua velocidade é <strong>${velocidade.value} Km/h</strong></p>`
