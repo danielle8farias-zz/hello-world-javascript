@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuário informa o valor de um ângulo e programa retorna os valores de seno, cosseno e tangente.
+*/
+
+
 //função é chamada ao clicar no botão
 function calcular() {
     //pegando elemento do html pelo id

@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Lâmpada acende se estiver apagada ou apaga, se estiver acessa.
+*/
+
+
 function clicar() {
     let desligado = document.getElementById('lamp-off')
     let ligado = document.getElementById('lamp-on')

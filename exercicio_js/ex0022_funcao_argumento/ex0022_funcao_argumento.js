@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Função que recebe 3 argumentos nas caixas abaixo e retornar a multiplicação entre eles ou avisa se um deles estiver vazio.
+*/
+
+
 //função é chamada ao clicar no botão
 function calcular() {
     //pegando elemento pelo id do html

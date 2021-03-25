@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuário informa um número inteiro e programa retorna a tabuada de multiplicação.
+*/
+
+
 //função é chamada ao clicar no botão
 function tabuada() {
     //pegando elemento pelo id do html

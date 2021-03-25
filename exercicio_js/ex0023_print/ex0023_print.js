@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Imprime mensagem na tela ao clicar no botão.
+*/
+
+
 //função é chamada ao clicar no botão
 function enviar() {
     let res = document.getElementById('res')

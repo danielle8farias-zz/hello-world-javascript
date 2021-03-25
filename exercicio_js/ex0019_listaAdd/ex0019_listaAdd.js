@@ -1,3 +1,12 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuário informa número(s) e programa guarda os valores em um vetor. 
+* Ao final retorna o total de elementos, o maior, o menor, a soma e a média desses números. 
+* Deve-se aceitar somente números de 1 a 100.
+*/
+
+
 //pegando elemento pelo id do html
 //criando variável
 let num = document.getElementById('txtn')

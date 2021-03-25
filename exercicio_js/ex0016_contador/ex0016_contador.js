@@ -1,3 +1,11 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuário informa para um contador um número inicial, final e o passo.
+* Programa retorna a contagem em ordem crescente ou decrescente, a depender dos valores finais e iniciais. 
+*/
+
+
 //função é chamada ao clicar no botão
 function contar() {
     //pegando elemento pelo id do html

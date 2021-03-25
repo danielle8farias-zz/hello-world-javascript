@@ -1,3 +1,11 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuária informa ano de nascimento e marca o gênero num checkbox. 
+* O programa retorna a idade e a imagem de uma pessoa de acordo com idade e gênero.
+*/
+
+
 //função é chamada ao clicar no botão
 function verificar() {
     //getFullYear() retorna o ano

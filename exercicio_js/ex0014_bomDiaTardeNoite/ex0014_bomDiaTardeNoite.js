@@ -1,3 +1,11 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Ao carregar a página, programa captura a hora atual do sistema e 
+* retorna ao usuário uma mensagem de saudação de acordo com a hora e mostra na tela uma imagem que representa essa hora do dia.
+*/
+
+
 //função é chamada ao carregar a página
 function pegaHora() {
     //criando variável

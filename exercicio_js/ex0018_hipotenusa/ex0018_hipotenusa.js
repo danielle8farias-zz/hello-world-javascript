@@ -1,3 +1,10 @@
+/**
+* autora: Danielle Farias
+* repositório: https://github.com/danielle8farias
+* Descrição: Usuário informa dos valores de catetos e programa retorna o valor da hipotenusa.
+*/
+
+
 //função é chamada ao clicar no botão
 function calcular() {
     //pegando elemento pelo id do html
